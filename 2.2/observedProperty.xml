@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-    xmlns:dc="http://purl.org/dc/elements/1.1/"
-    xmlns:pithia="https://metadata.pithia.eu/ontology/2.2/"
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:pithia="https://metadata.pithia.eu/ontology/2.2/"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:owlxml="http://www.w3.org/2006/12/owl2-xml#"
 >
     <skos:ConceptScheme rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty">
@@ -1851,7 +1851,7 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/CriticalFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
-                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/F-Region_of_Ionosphere"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F2-Layer"/>
                 <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
@@ -1866,7 +1866,7 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/CriticalFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/X"/>
-                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/F-Region_of_Ionosphere"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F2-Layer"/>
                 <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
@@ -1881,7 +1881,7 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/CriticalFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/Z"/>
-                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/F-Region_of_Ionosphere"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F2-Layer"/>
                 <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
@@ -1896,7 +1896,7 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/CriticalFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
-                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/F-Region_Bottomside_of_Ionosphere"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F1-Layer"/>
                 <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
@@ -1911,7 +1911,7 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/CriticalFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/X"/>
-                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/F-Region_Bottomside_of_Ionosphere"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F1-Layer"/>
                 <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
@@ -1926,7 +1926,7 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/CriticalFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
-                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/E-Region_of_Ionosphere"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_E-Layer"/>
                 <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
@@ -1941,6 +1941,8 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/CriticalFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_E2-Layer"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -1954,6 +1956,8 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/CriticalFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_Ea-Layer"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -3045,7 +3049,7 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/CriticalFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/X"/>
-                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/E-Region_of_Ionosphere"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_E-Layer"/>
                 <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
@@ -3060,7 +3064,7 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/CriticalFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/Z"/>
-                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/E-Region_of_Ionosphere"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_E-Layer"/>
                 <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
@@ -3107,7 +3111,7 @@
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaBoundaryPosition"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Position"/>
-                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Plasmasphere"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Plasmasphere"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -3122,7 +3126,7 @@
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Derived"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/VariationAboutMean"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/ElectromagneticElectronWave"/>
-                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Ionosphere"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere"/>
                 <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Scatter"/>
             </skos:Concept>
         </skos:member>
@@ -3138,7 +3142,7 @@
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Derived"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/VariationAboutMean"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/ElectromagneticElectronWave"/>
-                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Ionosphere"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere"/>
                 <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Scatter"/>
             </skos:Concept>
         </skos:member>
@@ -3152,7 +3156,7 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/GeomagneticActivity"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Current"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Derived"/>
-                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Near_Surface_Equatorial_Region"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Main"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
