@@ -1778,6 +1778,105 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath">
+                <skos:prefLabel xml:lang="en">Length of EM-wave Signal Group Path</skos:prefLabel>
+                <skos:altLabel xml:lang="en">t</skos:altLabel>
+                <dc:date>2013-06-01 21:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Length of EM-wave group path from emitter to receiver through propagation media</skos:definition>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_X-wave"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave">
+                <skos:prefLabel xml:lang="en">Length of EM O-wave Signal Group Path</skos:prefLabel>
+                <skos:altLabel xml:lang="en">to</skos:altLabel>
+                <skos:definition xml:lang="en">Length of EM O-wave group path from emitter to receiver through propagation media</skos:definition>
+                <dc:date>2015-04-13 22:02:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_HighRay"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_LowRay"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
+                <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_X-wave">
+                <skos:prefLabel xml:lang="en">Length of EM X-Wave Signal Group Path</skos:prefLabel>
+                <skos:altLabel xml:lang="en">tx</skos:altLabel>
+                <skos:definition xml:lang="en">Length of EM X-wave group path from emitter to receiver through propagation media</skos:definition>
+                <dc:date>2015-04-13 22:02:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_X-wave_HighRay"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_X-wave_LowRay"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
+                <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/X"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_HighRay">
+                <skos:prefLabel xml:lang="en">Length of EM O-wave Signal Group Path via High Ray</skos:prefLabel>
+                <skos:altLabel xml:lang="en">to</skos:altLabel>
+                <skos:definition xml:lang="en">Length of EM O-wave group path from emitter to receiver via the high-angle ray through propagation media</skos:definition>
+                <dc:date>2015-04-13 22:02:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
+                <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
+                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/High"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_LowRay">
+                <skos:prefLabel xml:lang="en">Length of EM O-wave Signal Group Path via Low Ray</skos:prefLabel>
+                <skos:altLabel xml:lang="en">to</skos:altLabel>
+                <skos:definition xml:lang="en">Length of EM O-wave group path from emitter to receiver via the low-angle ray through propagation media</skos:definition>
+                <dc:date>2015-04-13 22:02:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
+                <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
+                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Low"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_X-wave_HighRay">
+                <skos:prefLabel xml:lang="en">Length of EM X-Wave Signal Group Path via High Ray</skos:prefLabel>
+                <skos:altLabel xml:lang="en">tx</skos:altLabel>
+                <skos:definition xml:lang="en">Length of EM X-wave group path from emitter to receiver via the high-angle ray through propagation media</skos:definition>
+                <dc:date>2015-04-13 22:02:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_X-wave"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
+                <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/X"/>
+                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/High"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_X-wave_LowRay">
+                <skos:prefLabel xml:lang="en">Length of EM X-Wave Signal Group Path via Low Ray</skos:prefLabel>
+                <skos:altLabel xml:lang="en">tx</skos:altLabel>
+                <skos:definition xml:lang="en">Length of EM X-wave group path from emitter to receiver via the low-angle ray through propagation media</skos:definition>
+                <dc:date>2015-04-13 22:02:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_X-wave"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
+                <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/X"/>
+                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Low"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency">
                 <skos:prefLabel xml:lang="en">Critical Frequency</skos:prefLabel>
                 <skos:altLabel xml:lang="en">f</skos:altLabel>
@@ -2176,6 +2275,7 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Frequency"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Minimum"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2193,6 +2293,7 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Frequency"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Minimum"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2207,6 +2308,7 @@
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Frequency"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Minimum"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/MultiHop2"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2221,6 +2323,7 @@
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Frequency"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Minimum"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/MultiHop3"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2234,6 +2337,7 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Frequency"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Minimum"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2247,6 +2351,7 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Frequency"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Minimum"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2260,6 +2365,7 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Frequency"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Minimum"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2273,6 +2379,7 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Frequency"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Minimum"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Scatter"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2286,6 +2393,7 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/TopFrequency_X-Mode"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/TopFrequency"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2302,6 +2410,7 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/TopFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2314,6 +2423,7 @@
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/TopFrequency_O-Mode"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/TopFrequency"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2327,6 +2437,7 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/TopFrequency"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Spread"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2339,6 +2450,7 @@
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/TopFrequency_O-Mode"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/TopFrequency"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2353,6 +2465,7 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/TopFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/X"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2367,6 +2480,7 @@
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/TopFrequency"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Spread"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/X"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2383,6 +2497,7 @@
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Average"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Virtual"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Spread"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Scatter"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2398,6 +2513,7 @@
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Average"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Virtual"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Spread"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Scatter"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2413,6 +2529,7 @@
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Average"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Virtual"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Spread"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Scatter"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2428,6 +2545,7 @@
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/FrequencyBand"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Average"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Spread"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Scatter"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2443,6 +2561,7 @@
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/FrequencyBand"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Average"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Spread"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Scatter"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2457,6 +2576,7 @@
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/FrequencyBand"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Average"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Spread"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Scatter"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2470,6 +2590,7 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/FrequencyBand"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Total"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Scatter"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2483,6 +2604,8 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_D"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/MaximumUsableFrequency"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Refration"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2498,6 +2621,8 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/MaximumUsableFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Refration"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2512,6 +2637,8 @@
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/MaximumUsableFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
                 <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F2-Layer"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Refration"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2526,6 +2653,8 @@
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/MaximumUsableFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
                 <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F1-Layer"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Refration"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2542,6 +2671,8 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/MaximumUsableFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Refration"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2556,6 +2687,8 @@
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/MaximumUsableFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
                 <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F2-Layer"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Refration"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2570,6 +2703,8 @@
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/MaximumUsableFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
                 <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F1-Layer"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Refration"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2584,6 +2719,8 @@
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/MaximumUsableFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
                 <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_E-Layer"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Refration"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2598,6 +2735,8 @@
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/CriticalFrequency"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/MaximumUsableFrequency"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Ratio"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Refration"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2615,6 +2754,8 @@
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/CriticalFrequency"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/MaximumUsableFrequency"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Ratio"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Refration"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2629,6 +2770,8 @@
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/CriticalFrequency"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/MaximumUsableFrequency"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Ratio"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Refration"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2643,6 +2786,8 @@
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/CriticalFrequency"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/MaximumUsableFrequency"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Ratio"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Refration"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2658,6 +2803,9 @@
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/MaximumUsableFrequency"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Ratio"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Diffuse"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Refration"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Scatter"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -3129,6 +3277,7 @@
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/CriticalFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/Z"/>
                 <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_E-Layer"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
                 <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
