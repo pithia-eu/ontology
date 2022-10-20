@@ -52,6 +52,22 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/qualifier/High">
+                <skos:prefLabel xml:lang="en">High</skos:prefLabel>
+                <dc:date>2022-10-20 10:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">High value from a set</skos:definition>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/qualifier/Low">
+                <skos:prefLabel xml:lang="en">Low</skos:prefLabel>
+                <dc:date>2022-10-20 10:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Low value from a set</skos:definition>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/qualifier/AtMaximum">
                 <skos:prefLabel xml:lang="en">At Maximum Output</skos:prefLabel>
                 <dc:date>2013-05-31 21:30:00.0</dc:date>
