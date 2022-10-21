@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-    xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:owlxml="http://www.w3.org/2006/12/owl2-xml#"
 >
@@ -68,6 +68,7 @@
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/2D"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/2DImageSpectrogram"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/2DImageProfilogram"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/2DImageSignalogram"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -85,6 +86,15 @@
                 <dc:date>2013-05-31 15:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Image with horizontal axis of time, vertical axis of altitude, and color for output variable</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/2DImage"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/2DImageSignalogram">
+                <skos:prefLabel xml:lang="en">2D Signalogram</skos:prefLabel>
+                <dc:date>2013-05-31 15:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Image with horizontal axis of time, vertical axis of frequency, and color for a signal property</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/2DImage"/>
             </skos:Concept>
         </skos:member>
