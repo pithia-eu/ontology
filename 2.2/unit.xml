@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-    xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:owlxml="http://www.w3.org/2006/12/owl2-xml#"
 >
@@ -52,7 +52,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/unit/TECu">
-                <skos:prefLabel xml:lang="en">TEC units</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">TEC unit</skos:prefLabel>
                 <skos:altLabel xml:lang="en">TECu</skos:altLabel>
                 <dc:date>2013-05-31 15:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -132,7 +132,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/unit/sec">
-                <skos:prefLabel xml:lang="en">Seconds</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Second</skos:prefLabel>
                 <skos:altLabel xml:lang="en">sec</skos:altLabel>
                 <skos:definition xml:lang="en"></skos:definition>
                 <dc:date>2013-10-17 23:11:00.0</dc:date>
@@ -140,9 +140,9 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/unit/degrees">
-                <skos:prefLabel xml:lang="en">Degrees</skos:prefLabel>
-                <skos:altLabel xml:lang="en">degrees</skos:altLabel>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/unit/degree">
+                <skos:prefLabel xml:lang="en">Degree</skos:prefLabel>
+                <skos:altLabel xml:lang="en">degree</skos:altLabel>
                 <skos:definition xml:lang="en"></skos:definition>
                 <dc:date>2013-10-17 23:14:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -159,7 +159,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/unit/rad">
-                <skos:prefLabel xml:lang="en">Radians</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Radian</skos:prefLabel>
                 <skos:altLabel xml:lang="en">rad</skos:altLabel>
                 <skos:definition xml:lang="en"></skos:definition>
                 <dc:date>2013-10-17 23:12:00.0</dc:date>
@@ -168,8 +168,8 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/unit/DNs-1">
-                <skos:prefLabel xml:lang="en">counts per second</skos:prefLabel>
-                <skos:altLabel xml:lang="en">counts/sec</skos:altLabel>
+                <skos:prefLabel xml:lang="en">count per second</skos:prefLabel>
+                <skos:altLabel xml:lang="en">count/sec</skos:altLabel>
                 <skos:definition xml:lang="en">in case of SWAP: linearly related to number of photons in the bandpass per second</skos:definition>
                 <dc:date>2013-11-04 09:39:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -205,7 +205,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/unit/kV">
-                <skos:prefLabel xml:lang="en">kilovolts</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">kilovolt</skos:prefLabel>
                 <skos:altLabel xml:lang="en">kV</skos:altLabel>
                 <skos:definition xml:lang="en">Unit of electric potential</skos:definition>
                 <dc:date>2013-12-12 12:58:00.0</dc:date>
@@ -226,7 +226,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/unit/Vm-1">
-                <skos:prefLabel xml:lang="en">Volts per meter</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Volt per meter</skos:prefLabel>
                 <skos:altLabel xml:lang="en">V/m</skos:altLabel>
                 <skos:definition xml:lang="en">Unit of electric field strength</skos:definition>
                 <dc:date>2013-12-23 18:16:00.0</dc:date>
@@ -236,7 +236,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/unit/dBnVm-1">
-                <skos:prefLabel xml:lang="en">NanoVolts per meter in dB scale</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">NanoVolt per meter in dB scale</skos:prefLabel>
                 <skos:altLabel xml:lang="en">dBnV/m</skos:altLabel>
                 <skos:definition xml:lang="en">Common unit of electric field strength in log-scale (dB) for electric antenna receivers</skos:definition>
                 <dc:date>2013-12-23 18:14:00.0</dc:date>
@@ -246,7 +246,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/unit/dBVHz-0p5">
-                <skos:prefLabel xml:lang="en">Volts-rms per root-Hz in dB scale</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Volt-rms per root-Hz in dB scale</skos:prefLabel>
                 <skos:altLabel xml:lang="en">dBVrms/root-Hz</skos:altLabel>
                 <skos:definition xml:lang="en">Commonly used for voltage spectral density, this is root-mean-square amplitude of voltage in Volts per unit of bandwidth in root-Hz, expressed in dB scale (20log10)</skos:definition>
                 <dc:date>2014-01-13 21:29:00.0</dc:date>
