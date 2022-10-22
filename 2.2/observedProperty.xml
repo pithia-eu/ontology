@@ -1289,6 +1289,8 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/ColumnarContent"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Slant"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Plasmasphere"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -1299,9 +1301,26 @@
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">TEC along a vertical path from ground</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/TotalElectronContent"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/TotalElectronContent_Vertical_Ionosphere"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/ColumnarContent"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Vertical"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Plasmasphere"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/TotalElectronContent_Vertical_Ionosphere">
+                <skos:prefLabel xml:lang="en">Total Vertical Electron Content</skos:prefLabel>
+                <skos:altLabel xml:lang="en">I</skos:altLabel>
+                <dc:date>2013-06-01 21:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">TEC along a vertical path from ground</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/TotalElectronContent_Vertical"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/ColumnarContent"/>
+                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Vertical"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
