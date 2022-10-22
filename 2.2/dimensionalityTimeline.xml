@@ -107,5 +107,13 @@
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/2D"/>
             </skos:Concept>
         </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/4D">
+                <skos:prefLabel xml:lang="en">4D</skos:prefLabel>
+                <dc:date>2021-10-22 09:15:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Timelines with four independent variables (time and usually 3D volume)</skos:definition>
+            </skos:Concept>
+        </skos:member>
     </skos:ConceptScheme>
 </rdf:RDF>
