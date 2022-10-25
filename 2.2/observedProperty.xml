@@ -1799,7 +1799,7 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath">
                 <skos:prefLabel xml:lang="en">Length of EM-wave Signal Group Path</skos:prefLabel>
-                <skos:altLabel xml:lang="en">t</skos:altLabel>
+                <skos:altLabel xml:lang="en">P</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Length of EM-wave group path from emitter to receiver through propagation media</skos:definition>
@@ -1812,87 +1812,168 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave">
                 <skos:prefLabel xml:lang="en">Length of EM O-wave Signal Group Path</skos:prefLabel>
-                <skos:altLabel xml:lang="en">to</skos:altLabel>
+                <skos:altLabel xml:lang="en">P_o</skos:altLabel>
                 <skos:definition xml:lang="en">Length of EM O-wave group path from emitter to receiver through propagation media</skos:definition>
-                <dc:date>2015-04-13 22:02:00.0</dc:date>
+                <dc:date>2022-10-24 21:48:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_HighRay"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_LowRay"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_F2-Layer"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_F1-Layer"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_E-Layer"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_F2-Layer">
+                <skos:prefLabel xml:lang="en">Length of EM O-wave F2 layer Signal Group Path</skos:prefLabel>
+                <skos:altLabel xml:lang="en">P_oF2</skos:altLabel>
+                <skos:definition xml:lang="en">Length of EM O-wave group path from emitter to receiver via F2 layer </skos:definition>
+                <dc:date>2022-10-24 21:48:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_F2-Layer_LowRay"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_F2-Layer_HighRay"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
+                <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F2-Layer"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_F1-Layer">
+                <skos:prefLabel xml:lang="en">Length of EM O-wave F1 layer Signal Group Path</skos:prefLabel>
+                <skos:altLabel xml:lang="en">P_oF1</skos:altLabel>
+                <skos:definition xml:lang="en">Length of EM O-wave group path from emitter to receiver via F1 layer </skos:definition>
+                <dc:date>2022-10-24 21:48:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_F1-Layer_LowRay"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_F1-Layer_HighRay"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
+                <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F1-Layer"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_E-Layer">
+                <skos:prefLabel xml:lang="en">Length of EM O-wave E layer Signal Group Path</skos:prefLabel>
+                <skos:altLabel xml:lang="en">P_oE</skos:altLabel>
+                <skos:definition xml:lang="en">Length of EM O-wave group path from emitter to receiver via E layer </skos:definition>
+                <dc:date>2022-10-24 21:48:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_E-Layer_LowRay"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_E-Layer_HighRay"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
+                <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F1-Layer"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_F2-Layer_LowRay">
+                <skos:prefLabel xml:lang="en">Length of EM O-wave F2 layer Signal Group Path via Low Ray</skos:prefLabel>
+                <skos:altLabel xml:lang="en">P_oF2L</skos:altLabel>
+                <skos:definition xml:lang="en">Length of EM O-wave group path from emitter to receiver via Low-Ray F2 layer</skos:definition>
+                <dc:date>2022-10-24 21:48:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_F2-Layer"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
+                <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F2-Layer"/>
+                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Low"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_F2-Layer_HighRay">
+                <skos:prefLabel xml:lang="en">Length of EM O-wave F2 layer Signal Group Path via High Ray</skos:prefLabel>
+                <skos:altLabel xml:lang="en">P_oF2H</skos:altLabel>
+                <skos:definition xml:lang="en">Length of EM O-wave group path from emitter to receiver via High-Ray F2 layer</skos:definition>
+                <dc:date>2022-10-24 21:48:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_F2-Layer"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
+                <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F2-Layer"/>
+                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/High"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_F1-Layer_LowRay">
+                <skos:prefLabel xml:lang="en">Length of EM O-wave F1 layer Signal Group Path via Low Ray</skos:prefLabel>
+                <skos:altLabel xml:lang="en">P_oF1L</skos:altLabel>
+                <skos:definition xml:lang="en">Length of EM O-wave group path from emitter to receiver via Low-Ray F1 layer</skos:definition>
+                <dc:date>2022-10-24 21:48:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_F1-Layer"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
+                <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F1-Layer"/>
+                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Low"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_F1-Layer_HighRay">
+                <skos:prefLabel xml:lang="en">Length of EM O-wave F1 layer Signal Group Path via High Ray</skos:prefLabel>
+                <skos:altLabel xml:lang="en">P_oF1H</skos:altLabel>
+                <skos:definition xml:lang="en">Length of EM O-wave group path from emitter to receiver via High-Ray F1 layer</skos:definition>
+                <dc:date>2022-10-24 21:48:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_F1-Layer"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
+                <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F1-Layer"/>
+                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/High"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_E-Layer_LowRay">
+                <skos:prefLabel xml:lang="en">Length of EM O-wave E layer Signal Group Path via Low Ray</skos:prefLabel>
+                <skos:altLabel xml:lang="en">P_oEL</skos:altLabel>
+                <skos:definition xml:lang="en">Length of EM O-wave group path from emitter to receiver via Low-Ray E layer</skos:definition>
+                <dc:date>2022-10-24 21:48:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_E-Layer"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
+                <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_E-Layer"/>
+                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Low"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_E-Layer_HighRay">
+                <skos:prefLabel xml:lang="en">Length of EM O-wave E layer Signal Group Path via High Ray</skos:prefLabel>
+                <skos:altLabel xml:lang="en">P_oEH</skos:altLabel>
+                <skos:definition xml:lang="en">Length of EM O-wave group path from emitter to receiver via High-Ray E layer</skos:definition>
+                <dc:date>2022-10-24 21:48:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_E-Layer"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
+                <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_E-Layer"/>
+                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/High"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_X-wave">
                 <skos:prefLabel xml:lang="en">Length of EM X-Wave Signal Group Path</skos:prefLabel>
-                <skos:altLabel xml:lang="en">tx</skos:altLabel>
+                <skos:altLabel xml:lang="en">P_x</skos:altLabel>
                 <skos:definition xml:lang="en">Length of EM X-wave group path from emitter to receiver through propagation media</skos:definition>
                 <dc:date>2015-04-13 22:02:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_X-wave_HighRay"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_X-wave_LowRay"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/X"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_HighRay">
-                <skos:prefLabel xml:lang="en">Length of EM O-wave Signal Group Path via High Ray</skos:prefLabel>
-                <skos:altLabel xml:lang="en">to</skos:altLabel>
-                <skos:definition xml:lang="en">Length of EM O-wave group path from emitter to receiver via the high-angle ray through propagation media</skos:definition>
-                <dc:date>2015-04-13 22:02:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave"/>
-                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
-                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
-                <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
-                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/High"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave_LowRay">
-                <skos:prefLabel xml:lang="en">Length of EM O-wave Signal Group Path via Low Ray</skos:prefLabel>
-                <skos:altLabel xml:lang="en">to</skos:altLabel>
-                <skos:definition xml:lang="en">Length of EM O-wave group path from emitter to receiver via the low-angle ray through propagation media</skos:definition>
-                <dc:date>2015-04-13 22:02:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_O-wave"/>
-                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
-                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
-                <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
-                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Low"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_X-wave_HighRay">
-                <skos:prefLabel xml:lang="en">Length of EM X-Wave Signal Group Path via High Ray</skos:prefLabel>
-                <skos:altLabel xml:lang="en">tx</skos:altLabel>
-                <skos:definition xml:lang="en">Length of EM X-wave group path from emitter to receiver via the high-angle ray through propagation media</skos:definition>
-                <dc:date>2015-04-13 22:02:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_X-wave"/>
-                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
-                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
-                <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/X"/>
-                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/High"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_X-wave_LowRay">
-                <skos:prefLabel xml:lang="en">Length of EM X-Wave Signal Group Path via Low Ray</skos:prefLabel>
-                <skos:altLabel xml:lang="en">tx</skos:altLabel>
-                <skos:definition xml:lang="en">Length of EM X-wave group path from emitter to receiver via the low-angle ray through propagation media</skos:definition>
-                <dc:date>2015-04-13 22:02:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_X-wave"/>
-                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
-                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
-                <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/X"/>
-                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Low"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
