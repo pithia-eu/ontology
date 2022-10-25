@@ -115,8 +115,6 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_D-Region"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_E-Region"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F-Region"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F1-Region"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F2-Region"/>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth"/>
             </skos:Concept>
         </skos:member>
@@ -198,6 +196,7 @@
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F-Region"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F1-Layer"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F2-Layer"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F1.5-Layer"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -222,6 +221,15 @@
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F1-Layer">
                 <skos:prefLabel xml:lang="en">F1-Layer</skos:prefLabel>
                 <dc:date>2022-06-29 14:14:00.0</dc:date>
+                <owlxml:versionInfo>0.2</owlxml:versionInfo>
+                <skos:definition xml:lang="en"></skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F-Region_Bottomside"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F1.5-Layer">
+                <skos:prefLabel xml:lang="en">F1.5-Layer</skos:prefLabel>
+                <dc:date>2022-10-24 22:22:00.0</dc:date>
                 <owlxml:versionInfo>0.2</owlxml:versionInfo>
                 <skos:definition xml:lang="en"></skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F-Region_Bottomside"/>

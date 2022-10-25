@@ -2043,7 +2043,7 @@
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency_F2-Layer">
                 <skos:prefLabel xml:lang="en">F2-layer Critical Frequency</skos:prefLabel>
                 <skos:altLabel xml:lang="en">foF2</skos:altLabel>
-                <skos:definition xml:lang="en">The ordinary wave critical frequency of the highest stratification in the F region of ionosphere</skos:definition>
+                <skos:definition xml:lang="en">The ordinary wave critical frequency of the highest stratification in the F2 layer of ionosphere</skos:definition>
                 <dc:date>2015-04-14 15:07:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency_O-Mode"/>
@@ -2058,7 +2058,7 @@
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency_F2-Layer_X-Mode">
                 <skos:prefLabel xml:lang="en">F2-layer X-Mode Critical Frequency</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fxF2</skos:altLabel>
-                <skos:definition xml:lang="en">The extraordinary wave critical frequency of the highest stratification in the F region of ionosphere</skos:definition>
+                <skos:definition xml:lang="en">The extraordinary wave critical frequency of the highest stratification in the F2 layer of ionosphere</skos:definition>
                 <dc:date>2015-04-14 15:07:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency_X-Mode"/>
@@ -2073,7 +2073,7 @@
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency_F2-Layer_Z-Mode">
                 <skos:prefLabel xml:lang="en">F2-layer Z-Mode Critical Frequency</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fzF2</skos:altLabel>
-                <skos:definition xml:lang="en">The z-Mode wave critical frequency of the highest stratification in the F region of ionosphere</skos:definition>
+                <skos:definition xml:lang="en">The Z-Mode wave critical frequency of the highest stratification in the F2 layer of ionosphere</skos:definition>
                 <dc:date>2015-04-14 15:07:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency_Z-Mode"/>
@@ -2088,7 +2088,7 @@
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency_F1-Layer">
                 <skos:prefLabel xml:lang="en">F1-layer Critical Frequency</skos:prefLabel>
                 <skos:altLabel xml:lang="en">foF1</skos:altLabel>
-                <skos:definition xml:lang="en">The ordinary wave critical frequency of F1 region</skos:definition>
+                <skos:definition xml:lang="en">The ordinary wave critical frequency of F1 layer</skos:definition>
                 <dc:date>2015-04-14 15:02:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency_O-Mode"/>
@@ -2103,7 +2103,7 @@
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency_F1-Layer_X-Mode">
                 <skos:prefLabel xml:lang="en">F1-layer X-Mode Critical Frequency</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fxF1</skos:altLabel>
-                <skos:definition xml:lang="en">The extraordinary wave critical frequency of F1 region</skos:definition>
+                <skos:definition xml:lang="en">The extraordinary wave critical frequency of F1 layer</skos:definition>
                 <dc:date>2015-04-14 15:06:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency_X-Mode"/>
@@ -2118,7 +2118,7 @@
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency_E-Layer">
                 <skos:prefLabel xml:lang="en">E-layer Critical Frequency</skos:prefLabel>
                 <skos:altLabel xml:lang="en">foE</skos:altLabel>
-                <skos:definition xml:lang="en">The ordinary wave critical frequency of the lowest think layer stratification in the E region of ionosphere that causes a discontinuity in the height of E trace</skos:definition>
+                <skos:definition xml:lang="en">The ordinary wave critical frequency of the lowest thick layer stratification in the E region of ionosphere that causes a discontinuity in the height of E trace</skos:definition>
                 <dc:date>2015-04-14 15:01:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency_O-Mode"/>
@@ -2170,6 +2170,8 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/CriticalFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_Es-Layer"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2183,6 +2185,8 @@
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/CriticalFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/X"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_Es-Layer"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2195,6 +2199,8 @@
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency_O-Mode"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/CriticalFrequency"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere_F1.5-Layer"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Reflection"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2228,7 +2234,7 @@
                 <skos:altLabel xml:lang="en">h'F2</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">The minimum virtual height of the ordinary wave trace for the highest stable stratification in the F region of ionosphere</skos:definition>
+                <skos:definition xml:lang="en">The minimum virtual height of the ordinary wave trace for the highest stable stratification in the F2 region of ionosphere</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MinimumVirtualHeight"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
@@ -2242,7 +2248,7 @@
                 <skos:altLabel xml:lang="en">h'F1</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">The minimum virtual height of the ordinary wave trace for the F1 region of ionosphere</skos:definition>
+                <skos:definition xml:lang="en">The minimum virtual height of the ordinary wave trace for the F1 layer of ionosphere</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MinimumVirtualHeight"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
@@ -2251,8 +2257,8 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MinimumVirtualHeight_F-Layer">
-                <skos:prefLabel xml:lang="en">Minimum Virtual Height of F layer</skos:prefLabel>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MinimumVirtualHeight_F-Region">
+                <skos:prefLabel xml:lang="en">Minimum Virtual Height of plasma layers in F region</skos:prefLabel>
                 <skos:altLabel xml:lang="en">h'F</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2716,7 +2722,7 @@
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">MUF for a 3000 km path through a region of ionosphere</skos:definition>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_3000km_F2-Layer"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_3000km_F1-Region"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_3000km_F1-Layer"/>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/MaximumUsableFrequency"/>
@@ -2727,11 +2733,11 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_3000km_F2-Layer">
-                <skos:prefLabel xml:lang="en">F2 region Standard MUF at 3000 km</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">F2-layer Standard MUF at 3000 km</skos:prefLabel>
                 <skos:altLabel xml:lang="en">MUF(3000)F2</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">The highest frequency for ionospheric transmission over an oblique path of 3000 km through F2 region of ionosphere determined from ionograms via conventional transmission curve</skos:definition>
+                <skos:definition xml:lang="en">The highest frequency for ionospheric transmission over an oblique path of 3000 km through F2 layer of ionosphere determined from ionograms via conventional transmission curve</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_3000km"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/MaximumUsableFrequency"/>
@@ -2742,12 +2748,12 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_3000km_F1-Region">
-                <skos:prefLabel xml:lang="en">F1-region Standard MUF at 3000 km</skos:prefLabel>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_3000km_F1-Layer">
+                <skos:prefLabel xml:lang="en">F1-layer Standard MUF at 3000 km</skos:prefLabel>
                 <skos:altLabel xml:lang="en">MUF(3000)F1</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">The highest frequency for transmission over an oblique path of 3000 km through F1 region of ionosphere determined from ionograms via conventional transmission curve</skos:definition>
+                <skos:definition xml:lang="en">The highest frequency for transmission over an oblique path of 3000 km through F1 layer of ionosphere determined from ionograms via conventional transmission curve</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_3000km"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/MaximumUsableFrequency"/>
@@ -2763,10 +2769,10 @@
                 <skos:altLabel xml:lang="en">MUF(D)</skos:altLabel>
                 <dc:date>2022-10-19 16:50:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">MUF for a D km ground distance radio link through a region of ionosphere</skos:definition>
+                <skos:definition xml:lang="en">MUF for a D km ground distance radio link through the ionosphere</skos:definition>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_D_F2-Layer"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_D_F1-Region"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_D_E-Region"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_D_F1-Layer"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_D_E-Layer"/>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/MaximumUsableFrequency"/>
@@ -2777,11 +2783,11 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_D_F2-Layer">
-                <skos:prefLabel xml:lang="en">F2-region MUF over D km ground distance</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">F2-layer MUF over D km ground distance</skos:prefLabel>
                 <skos:altLabel xml:lang="en">MUF(D)F2</skos:altLabel>
-                <dc:date>2013-06-10 12:30:00.0</dc:date>
+                <dc:date>2022-10-24 22:10:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">The highest frequency for ionospheric transmission over D km ground distance through F2 region</skos:definition>
+                <skos:definition xml:lang="en">The highest frequency for ionospheric transmission over D km ground distance through F2 layer</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_3000km"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/MaximumUsableFrequency"/>
@@ -2792,12 +2798,12 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_D_F1-Region">
-                <skos:prefLabel xml:lang="en">F1-region MUF over D km ground distance</skos:prefLabel>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_D_F1-Layer">
+                <skos:prefLabel xml:lang="en">F1-layer MUF over D km ground distance</skos:prefLabel>
                 <skos:altLabel xml:lang="en">MUF(D)F1</skos:altLabel>
-                <dc:date>2013-06-10 12:30:00.0</dc:date>
+                <dc:date>2022-10-24 22:10:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">The highest frequency for ionospheric transmission over D km ground distance through F1 region</skos:definition>
+                <skos:definition xml:lang="en">The highest frequency for ionospheric transmission over D km ground distance through F1 Layer</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_3000km"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/MaximumUsableFrequency"/>
@@ -2808,12 +2814,12 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_D_E-Region">
-                <skos:prefLabel xml:lang="en">E-region MUF over D km ground distance</skos:prefLabel>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_D_E-Layer">
+                <skos:prefLabel xml:lang="en">E-layer MUF over D km ground distance</skos:prefLabel>
                 <skos:altLabel xml:lang="en">MUF(D)E</skos:altLabel>
-                <dc:date>2013-06-10 12:30:00.0</dc:date>
+                <dc:date>2022-10-24 22:10:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">The highest frequency for ionospheric transmission over D km ground distance through E region</skos:definition>
+                <skos:definition xml:lang="en">The highest frequency for ionospheric transmission over D km ground distance through E layer</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_3000km"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/MaximumUsableFrequency"/>
