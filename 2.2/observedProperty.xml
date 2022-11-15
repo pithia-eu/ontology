@@ -3160,15 +3160,6 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/LOCATION">
-                <skos:prefLabel xml:lang="en">LOCATION</skos:prefLabel>
-                <skos:altLabel xml:lang="en">LOCATION</skos:altLabel>
-                <dc:date>2013-06-11 12:30:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">The LOCATION observed property is used in the Observation XML files that correspond to the location of a satellite</skos:definition>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaLayerType">
                 <skos:prefLabel xml:lang="en">Type</skos:prefLabel>
                 <skos:definition xml:lang="en">Category type of a layer</skos:definition>
