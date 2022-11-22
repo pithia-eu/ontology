@@ -3428,8 +3428,8 @@
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/AmplitudeScintillationIndexS4">
                 <skos:prefLabel xml:lang="en">Amplitude Scintillation Index S4</skos:prefLabel>
                 <skos:altLabel xml:lang="en">S4</skos:altLabel>
-                <skos:definition xml:lang="en">Scintillation index derived from amplitude variations of GPS signal</skos:definition>
-                <dc:date>2015-11-17 14:30:00.0</dc:date>
+                <skos:definition xml:lang="en">Scintillation index derived from amplitude variations of GNSS signal.  It is defined as the normalized standard deviation of the detrended 50 Hz raw signal intensity over a given interval of time, typically 60 s.</skos:definition>
+                <dc:date>2022-11-22 14:57:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/IonosphericActivity"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Strength"/>
@@ -3437,15 +3437,15 @@
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/VariationAboutMean"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/ElectromagneticElectronWave"/>
                 <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere"/>
-                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Scatter"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Diffraction"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/PhaseScintillationIndexSigmaPhi">
                 <skos:prefLabel xml:lang="en">Phase Scintillation Index</skos:prefLabel>
                 <skos:altLabel xml:lang="en">SigmaPhi</skos:altLabel>
-                <skos:definition xml:lang="en">Scintillation index derived from phase fluctuations of the GPS signal</skos:definition>
-                <dc:date>2015-11-17 14:30:00.0</dc:date>
+                <skos:definition xml:lang="en">Scintillation index derived from phase fluctuations of the GNSS signal. It is defined as the standard deviation of the 50 Hz detrended carrier phase over a given interval of time, typically 60 s and is given in radians.</skos:definition>
+                <dc:date>2022-11-22 14:57:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/IonosphericActivity"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Phase"/>
@@ -3453,7 +3453,7 @@
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/VariationAboutMean"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/ElectromagneticElectronWave"/>
                 <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere"/>
-                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Scatter"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Diffraction"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
