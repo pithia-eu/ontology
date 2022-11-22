@@ -3454,6 +3454,7 @@
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/ElectromagneticElectronWave"/>
                 <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere"/>
                 <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Diffraction"/>
+                <pithia:interaction rdf:resource="https://metadata.pithia.eu/ontology/2.2/interaction/Refraction"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
