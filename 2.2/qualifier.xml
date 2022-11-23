@@ -44,6 +44,14 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/qualifier/Difference">
+                <skos:prefLabel xml:lang="en">Difference</skos:prefLabel>
+                <dc:date>2022-11-22 09:42:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Difference of two measurands</skos:definition>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/qualifier/Total">
                 <skos:prefLabel xml:lang="en">Total</skos:prefLabel>
                 <dc:date>2013-05-31 21:30:00.0</dc:date>
