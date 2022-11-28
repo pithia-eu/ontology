@@ -245,8 +245,6 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Magnetotail"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Main"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Inner"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Plasmasphere"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Radiation-Belt"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Mantle"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Boundary-Layers"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Magnetopause"/>
@@ -270,6 +268,9 @@
                 <owlxml:versionInfo>0.2</owlxml:versionInfo>
                 <skos:definition xml:lang="en"></skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Plasmasphere"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Radiation-Belt"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Ring-Current"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -278,7 +279,25 @@
                 <dc:date>2022-06-29 14:14:00.0</dc:date>
                 <owlxml:versionInfo>0.2</owlxml:versionInfo>
                 <skos:definition xml:lang="en"></skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere"/>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Inner"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Radiation-Belt">
+                <skos:prefLabel xml:lang="en">Radiation Belt</skos:prefLabel>
+                <dc:date>2022-06-29 14:14:00.0</dc:date>
+                <owlxml:versionInfo>0.2</owlxml:versionInfo>
+                <skos:definition xml:lang="en"></skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Inner"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Ring-Current">
+                <skos:prefLabel xml:lang="en">Radiation Belt</skos:prefLabel>
+                <dc:date>2022-06-29 14:14:00.0</dc:date>
+                <owlxml:versionInfo>0.2</owlxml:versionInfo>
+                <skos:definition xml:lang="en"></skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Inner"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -341,15 +360,6 @@
                 <dc:date>2022-10-17 09:00:00.0</dc:date>
                 <owlxml:versionInfo>0.2</owlxml:versionInfo>
                 <skos:definition xml:lang="en">The bow shock of the Earth's magnetosphere</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Radiation-Belt">
-                <skos:prefLabel xml:lang="en">Radiation Belt</skos:prefLabel>
-                <dc:date>2022-06-29 14:14:00.0</dc:date>
-                <owlxml:versionInfo>0.2</owlxml:versionInfo>
-                <skos:definition xml:lang="en"></skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere"/>
             </skos:Concept>
         </skos:member>
