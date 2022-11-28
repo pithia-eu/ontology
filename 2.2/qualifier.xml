@@ -184,6 +184,14 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/qualifier/StandardDeviation">
+                <skos:prefLabel xml:lang="en">Standard Deviation</skos:prefLabel>
+                <dc:date>2022-11-28 16:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Standard deviation of a set of values; a measure of dispersion around the mean value</skos:definition>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/qualifier/Scalar">
                 <skos:prefLabel xml:lang="en">Scalar</skos:prefLabel>
                 <dc:date>2013-05-31 21:30:00.0</dc:date>
