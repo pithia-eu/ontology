@@ -194,6 +194,15 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/unit/gcm-3">
+                <skos:prefLabel xml:lang="en">gram per cubic centimetre</skos:prefLabel>
+                <skos:altLabel xml:lang="en">g*cm-3</skos:altLabel>
+                <skos:definition xml:lang="en">gram * centimetre power-3</skos:definition>
+                <dc:date>2014-10-08 11:10:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/unit/kHz">
                 <skos:prefLabel xml:lang="en">Kilo Hertz</skos:prefLabel>
                 <skos:altLabel xml:lang="en">kHz</skos:altLabel>
