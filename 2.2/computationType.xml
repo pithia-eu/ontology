@@ -80,13 +80,18 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/Software">
-                <skos:prefLabel xml:lang="en">Software</skos:prefLabel>
-                <skos:definition xml:lang="en"></skos:definition>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/MeasurementProcessing">
+                <skos:prefLabel xml:lang="en">Measurement Processing</skos:prefLabel>
+                <skos:definition xml:lang="en">
+                    Computation steps applied to measurement data in order to select, condition (improve quality), 
+                    and derive new observed proprties
+                </skos:definition>
                 <dc:date>2013-12-05 15:18:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/IonogramScaling"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/PlasmagramScaling"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SpectrogramScaling"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/DataConditioning"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -95,7 +100,7 @@
                 <dc:date>2013-05-31 15:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en"></skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Software"/>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MeasurementProcessing"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/IonogramScaling_Automatic"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/IonogramScaling_Manual"/>
             </skos:Concept>
@@ -124,9 +129,9 @@
                 <skos:definition xml:lang="en">Scaling plasmagram image to derived secondary products such as traces, resonance frequencies, profiles of electron density</skos:definition>
                 <dc:date>2013-12-05 15:22:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MeasurementProcessing"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/PlasmagramScaling_Automatic"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/PlasmagramScaling_Manual"/>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Software"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -162,6 +167,7 @@
                 <skos:definition xml:lang="en">Scaling of spectrogram image to obtained secondary data products such as electron plasma and electron gyro-frequency</skos:definition>
                 <dc:date>2015-09-14 02:33:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MeasurementProcessing"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SpectrogramScaling_Automatic"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SpectrogramScaling_Manual"/>
             </skos:Concept>
@@ -182,6 +188,19 @@
                 <dc:date>2015-09-14 02:33:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SpectrogramScaling"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/DataConditioning">
+                <skos:prefLabel xml:lang="en">Data Conditioning</skos:prefLabel>
+                <skos:definition xml:lang="en">
+                    A variety of computational techniques that select/subset and improve quality of measurement data.
+                </skos:definition>
+                <dc:date>2015-09-14 02:33:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MeasurementProcessing"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SpectrogramScaling_Automatic"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SpectrogramScaling_Manual"/>
             </skos:Concept>
         </skos:member>
     </skos:ConceptScheme>
