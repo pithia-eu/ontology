@@ -439,7 +439,7 @@
                 <skos:prefLabel xml:lang="en">Neutral Density</skos:prefLabel>
                 <skos:altLabel xml:lang="en">Ne</skos:altLabel>
                 <skos:definition xml:lang="en">Number density of neutral particles</skos:definition>
-                <dc:date>2013-10-10 09:43:00.0</dc:date>
+                <dc:date>2022-11-30 09:00:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralDensity_O"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralDensity_O2"/>
@@ -452,7 +452,7 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralDensity_O">
                 <skos:prefLabel xml:lang="en">Neutral Density of Atomic Oxygen O</skos:prefLabel>
-                <dc:date>2013-06-01 21:30:00.0</dc:date>
+                <dc:date>2022-11-30 09:00:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Number density of atomic oxygen</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralDensity"/>
@@ -463,7 +463,7 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralDensity_O2">
                 <skos:prefLabel xml:lang="en">Neutral Density of Dioxygen O2</skos:prefLabel>
-                <dc:date>2013-06-01 21:30:00.0</dc:date>
+                <dc:date>2022-11-30 09:00:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Neutral density of diatomic oxygen (dioxygen) O2</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralDensity"/>
@@ -474,7 +474,7 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralDensity_N2">
                 <skos:prefLabel xml:lang="en">Neutral Density of Dinitrogen N2</skos:prefLabel>
-                <dc:date>2013-06-01 21:30:00.0</dc:date>
+                <dc:date>2022-11-30 09:00:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Neutral density of diatomic nitrogen (dinitrogen) N2</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralDensity"/>
@@ -485,12 +485,71 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralDensity_He">
                 <skos:prefLabel xml:lang="en">Neutral Density of Helium He</skos:prefLabel>
-                <dc:date>2013-06-01 21:30:00.0</dc:date>
+                <dc:date>2022-11-30 09:00:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Neutral density of helium He</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralDensity"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/NeutralHelium"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/NumberDensity"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralTemperature">
+                <skos:prefLabel xml:lang="en">Neutral Temperature</skos:prefLabel>
+                <skos:altLabel xml:lang="en">Ne</skos:altLabel>
+                <skos:definition xml:lang="en">Temperature of neutral particles</skos:definition>
+                <dc:date>2022-11-30 09:00:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralTemperature_O"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralTemperature_O2"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralTemperature_N2"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralTemperature_He"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/NeutralParticle"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Temperature"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralTemperature_O">
+                <skos:prefLabel xml:lang="en">Neutral Temperature of Atomic Oxygen O</skos:prefLabel>
+                <dc:date>2022-11-30 09:00:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Temperature of atomic oxygen</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralTemperature"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/NeutralOxygen-Atomic"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Temperature"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralTemperature_O2">
+                <skos:prefLabel xml:lang="en">Neutral Temperature of Dioxygen O2</skos:prefLabel>
+                <dc:date>2022-11-30 09:00:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Temperature of diatomic oxygen (dioxygen) O2</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralTemperature"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/NeutralOxygen-Dioxygen"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Temperature"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralTemperature_N2">
+                <skos:prefLabel xml:lang="en">Neutral Temperature of Dinitrogen N2</skos:prefLabel>
+                <dc:date>2022-11-30 09:00:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Neutral temperature of diatomic nitrogen (dinitrogen) N2</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralTemperature"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/NeutralNitrogen-Dinitrogen"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Temperature"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralTemperature_He">
+                <skos:prefLabel xml:lang="en">Neutral Temperature of Helium He</skos:prefLabel>
+                <dc:date>2022-11-30 09:00:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Neutral temperature of helium He</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralTemperature"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/NeutralHelium"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Temperature"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
