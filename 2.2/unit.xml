@@ -140,6 +140,15 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/unit/ns">
+                <skos:prefLabel xml:lang="en">Nanosecond</skos:prefLabel>
+                <skos:altLabel xml:lang="en">ns</skos:altLabel>
+                <skos:definition xml:lang="en"></skos:definition>
+                <dc:date>2022-12-01 10:11:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/unit/degree">
                 <skos:prefLabel xml:lang="en">Degree</skos:prefLabel>
                 <skos:altLabel xml:lang="en">degree</skos:altLabel>
