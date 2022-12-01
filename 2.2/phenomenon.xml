@@ -12,17 +12,6 @@
         <owlxml:versionInfo>0.1</owlxml:versionInfo>
         <dc:publisher>PITHIA</dc:publisher>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/phenomenon/Activity">
-                <skos:prefLabel xml:lang="en">Activity</skos:prefLabel>
-                <dc:date>2013-05-31 21:30:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">System state out of the ordinary, average behavior</skos:definition>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/GeophysicalActivity"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/InterplanetaryActivity"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/SolarActivity"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/phenomenon/GeophysicalActivity">
                 <skos:prefLabel xml:lang="en">Geophysical Activity</skos:prefLabel>
                 <dc:date>2013-05-31 21:30:00.0</dc:date>
@@ -517,6 +506,14 @@
                 <dc:date>2013-12-04 21:15:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectrostaticPlasmaWave"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/phenomenon/Mixed">
+                <skos:prefLabel xml:lang="en">For observed properties of different phenomena</skos:prefLabel>
+                <dc:date>2022-12-01 10:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Various phenomena that produce/contribute to the same observed property</skos:definition>
             </skos:Concept>
         </skos:member>
     </skos:ConceptScheme>
