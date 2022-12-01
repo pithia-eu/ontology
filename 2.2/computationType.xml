@@ -12,6 +12,20 @@
         <owlxml:versionInfo>0.1</owlxml:versionInfo>
         <dc:publisher>PITHIA</dc:publisher>
         <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/ActivityIndex">
+                <skos:prefLabel xml:lang="en">Activity Index</skos:prefLabel>
+                <dc:date>2013-05-31 15:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">
+                    A computed value that is interpreted as a level of activity within the feature or interest.
+                    While based on underlying acquisitions (measurements) and computations (medels) of real 
+                    physical quantities, an activity index may or may not directly correspond to an observed
+                    property with explicit definitions of its phenomenon, measurand, and units of the value 
+                    presentation.
+                </skos:definition>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/Model">
                 <skos:prefLabel xml:lang="en">Model</skos:prefLabel>
                 <dc:date>2013-05-31 15:30:00.0</dc:date>
