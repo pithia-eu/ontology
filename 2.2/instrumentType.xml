@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-    xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:owlxml="http://www.w3.org/2006/12/owl2-xml#"
 >
@@ -31,6 +31,7 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/Radar"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/Sounder"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiver"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-transmitter"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -103,7 +104,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiver">
-                <skos:prefLabel xml:lang="en">GNSS-based Instrument</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Receiver of GNSS signals</skos:prefLabel>
                 <dc:date>2013-06-21 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">An instrument that infers properties of the propagation medium from analysis of received signals from the GNSS spacecraft.</skos:definition>
@@ -111,6 +112,15 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverDualFrequency"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverScintillation"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverOccultation"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-transmitter">
+                <skos:prefLabel xml:lang="en">A spaceborne GNSS Transmitter Instrument</skos:prefLabel>
+                <dc:date>2013-06-21 21:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">A transmitter on GNSS platform with a precise time measurement of pulse tranmission.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/ActiveRemoteSensor"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
