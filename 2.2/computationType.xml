@@ -84,7 +84,7 @@
                 <skos:prefLabel xml:lang="en">Measurement Processing</skos:prefLabel>
                 <skos:definition xml:lang="en">
                     Computation steps applied to measurement data in order to select, condition (improve quality), 
-                    and derive new observed proprties
+                    or derive new observed properties
                 </skos:definition>
                 <dc:date>2013-12-05 15:18:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -92,6 +92,7 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/PlasmagramScaling"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SpectrogramScaling"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/DataConditioning"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GNSS-SignalProcessing"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -201,6 +202,17 @@
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MeasurementProcessing"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SpectrogramScaling_Automatic"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SpectrogramScaling_Manual"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/GNSS-SignalProcessing">
+                <skos:prefLabel xml:lang="en">GNSS Signal Processing</skos:prefLabel>
+                <skos:definition xml:lang="en">
+                    A class of signal processing techniques specific to GNSS (both ground and spaceborn reception)
+                </skos:definition>
+                <dc:date>2022-12-01 09:48:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MeasurementProcessing"/>
             </skos:Concept>
         </skos:member>
     </skos:ConceptScheme>
