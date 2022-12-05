@@ -73,6 +73,7 @@
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Model"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Fitting"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Geometry"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Tomography"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -91,6 +92,16 @@
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en"></skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MathematicalModel"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/Tomography">
+                <skos:prefLabel xml:lang="en">Computations based on the tomographic considerations</skos:prefLabel>
+                <dc:date>2022-12-05 08:15:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en"></skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MathematicalModel"/>
+                <!-- TODO: this will be likely expanded to add narrower defintiions of different tomography techniques -->
             </skos:Concept>
         </skos:member>
         <skos:member>
