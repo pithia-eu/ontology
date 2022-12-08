@@ -12,53 +12,6 @@
         <owlxml:versionInfo>0.1</owlxml:versionInfo>
         <dc:publisher>PITHIA</dc:publisher>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/phenomenon/GeophysicalActivity">
-                <skos:prefLabel xml:lang="en">Geophysical Activity</skos:prefLabel>
-                <dc:date>2013-05-31 21:30:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">An activity in the geophysical environment</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Activity"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/GeomagneticActivity"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/GeoelectricActivity"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/phenomenon/GeomagneticActivity">
-                <skos:prefLabel xml:lang="en">Geomagnetic Activity</skos:prefLabel>
-                <dc:date>2013-05-31 21:30:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">An activity in the Earth's magnetic field</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/GeophysicalActivity"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/phenomenon/GeoelectricActivity">
-                <skos:prefLabel xml:lang="en">Geoelectrical Activity</skos:prefLabel>
-                <dc:date>2013-10-11 10:34:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">An activity in the Earth's electric field</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/GeophysicalActivity"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/phenomenon/InterplanetaryActivity">
-                <skos:prefLabel xml:lang="en">Interplanetary Activity</skos:prefLabel>
-                <dc:date>2013-05-31 21:30:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">An activity in the interplanetary space</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Activity"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/phenomenon/SolarActivity">
-                <skos:prefLabel xml:lang="en">Solar Activtity</skos:prefLabel>
-                <dc:date>2013-05-31 21:30:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">An activity on the Sun</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Activity"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/phenomenon/Field">
                 <skos:prefLabel xml:lang="en">Field</skos:prefLabel>
                 <dc:date>2013-05-31 21:30:00.0</dc:date>
@@ -460,15 +413,6 @@
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Waves in magnetized plasma at frequencies much below the ion cyclotron frequency that are described using a coupled set of the fluid theory (hydrodynamic equation) and the EMF theory (electrodynamic equations), yielding several propagating wave solutions (Alfven mode, slow mode and fast mode, entropy mode)</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/HydrodynamicWave"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/phenomenon/IonosphericActivity">
-                <skos:prefLabel xml:lang="en">Ionospheric Activity</skos:prefLabel>
-                <skos:definition xml:lang="en">An activity in the Earth's ionospheric plasma</skos:definition>
-                <dc:date>2013-10-10 23:43:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/GeophysicalActivity"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
