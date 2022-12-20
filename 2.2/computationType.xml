@@ -75,6 +75,7 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Geometry"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Tomography"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/DiscreteLineIntegral"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MappingFunction"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -111,6 +112,15 @@
                 <dc:date>2022-12-20 08:54:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">An integral of a descrete function (i.e., sum of the function values) along a 1D path</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MathematicalModel"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/MappingFunction">
+                <skos:prefLabel xml:lang="en">Slant-to-Vertical TEC Mapping Function</skos:prefLabel>
+                <dc:date>2022-12-20 08:54:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Conversion of slant to vertical TEC</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MathematicalModel"/>
             </skos:Concept>
         </skos:member>
