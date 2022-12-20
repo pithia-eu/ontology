@@ -12,6 +12,17 @@
         <owlxml:versionInfo>0.1</owlxml:versionInfo>
         <dc:publisher>PITHIA</dc:publisher>
         <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/unit/m">
+                <skos:prefLabel xml:lang="en">Meter</skos:prefLabel>
+                <skos:altLabel xml:lang="en">m</skos:altLabel>
+                <skos:definition xml:lang="en"></skos:definition>
+                <dc:date>2013-12-23 18:15:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/unit/km"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/unit/cm"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/unit/km">
                 <skos:prefLabel xml:lang="en">Kilometer</skos:prefLabel>
                 <skos:altLabel xml:lang="en">km</skos:altLabel>
@@ -22,13 +33,13 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/unit/m">
-                <skos:prefLabel xml:lang="en">Meter</skos:prefLabel>
-                <skos:altLabel xml:lang="en">m</skos:altLabel>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/unit/cm">
+                <skos:prefLabel xml:lang="en">Centimeter</skos:prefLabel>
+                <skos:altLabel xml:lang="en">cm</skos:altLabel>
                 <skos:definition xml:lang="en"></skos:definition>
-                <dc:date>2013-12-23 18:15:00.0</dc:date>
+                <dc:date>2022-12-20 09:15:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/unit/km"/>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/unit/m"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
