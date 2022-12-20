@@ -18,6 +18,7 @@
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">No input independent variables</skos:definition>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/0DPoint"/>
+                <!-- incorrect definition, deprecated, use 1DPoints instead -->
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/0DPoints"/>
             </skos:Concept>
         </skos:member>
@@ -47,6 +48,7 @@
                 <skos:definition xml:lang="en">One input independent variable</skos:definition>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/1DProfile"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/1DSpectrum"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/1DPoints"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -168,6 +170,15 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/1DPoints">
+                <skos:prefLabel xml:lang="en">1D set of 0D Points</skos:prefLabel>
+                <dc:date>2013-05-31 15:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Observed Property evaluated at several points in space</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/1D"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/2D">
                 <skos:prefLabel xml:lang="en">2D</skos:prefLabel>
                 <dc:date>2013-05-31 15:30:00.0</dc:date>
@@ -176,6 +187,7 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/2DImage"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/2DMap"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/2DCrossSection"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/2DMultivaluePoints"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -303,6 +315,15 @@
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Observed Property evaluated in a 2D plane of magnetic equator</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/2DCrossSectionGeomagneticZonal"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/2DMultivaluePoints">
+                <skos:prefLabel xml:lang="en">Multi-point 1D dataset with each point reporting a 1D set of values</skos:prefLabel>
+                <dc:date>2022-12-05 08:35:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Observed Property evaluated at several points in space, each point presenting a set of values; commonly used for source STEC maps</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/2D"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
