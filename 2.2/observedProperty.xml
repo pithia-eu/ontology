@@ -3295,6 +3295,16 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/EventTime">
+                <skos:prefLabel xml:lang="en">Event Time</skos:prefLabel>
+                <skos:definition xml:lang="en">Observed time of an event</skos:definition>
+                <dc:date>2022-11-29 08:46:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Mixed"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Time"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlatformLocation">
                 <skos:prefLabel xml:lang="en">Platform Location</skos:prefLabel>
                 <skos:definition xml:lang="en">Location of a platform in space</skos:definition>
@@ -3619,13 +3629,13 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath_X-wave">
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/WaveGroupPath_EM_X-wave">
                 <skos:prefLabel xml:lang="en">Length of EM X-Wave Signal Group Path</skos:prefLabel>
                 <skos:altLabel xml:lang="en">P_x</skos:altLabel>
                 <skos:definition xml:lang="en">Length of EM X-wave group path from emitter to receiver through propagation media</skos:definition>
                 <dc:date>2015-04-13 22:02:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SignalGroupPath"/>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/WaveGroupPath_EM"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Distance"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/X"/>
