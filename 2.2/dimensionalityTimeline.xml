@@ -27,26 +27,6 @@
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Sequences of 0D observations at successive points in time</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/1D"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/1DTimeseriesSingle"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/1DTimeseriesStacked"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/1DTimeseriesSingle">
-                <skos:prefLabel xml:lang="en">1D Single Time Series</skos:prefLabel>
-                <dc:date>2013-05-31 15:30:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">Time series of one scalar 0D Observation</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/1DTimeseries"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/1DTimeseriesStacked">
-                <skos:prefLabel xml:lang="en">1D Stacked Time Series</skos:prefLabel>
-                <dc:date>2013-05-31 15:30:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">Stacked time series of multiple 0D observations and/or components of vector 0D observation</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/1DTimeseries"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -57,6 +37,7 @@
                 <skos:definition xml:lang="en">Timelines with two independent variables (time and the input variable)</skos:definition>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/2DImage"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/2DAnimation"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/2DTimeseriesStacked"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -104,6 +85,15 @@
                 <dc:date>2013-05-31 15:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Assembly of the source 2D images in continuous motion</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/2D"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/2DTimeseriesStacked">
+                <skos:prefLabel xml:lang="en">1D Stacked Time Series</skos:prefLabel>
+                <dc:date>2013-05-31 15:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Stacked time series of multiple 0D observations or components of a vector 0D observation</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/2D"/>
             </skos:Concept>
         </skos:member>

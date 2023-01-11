@@ -18,8 +18,6 @@
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">No input independent variables</skos:definition>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/0DPoint"/>
-                <!-- incorrect definition, deprecated, use 1DPoints instead -->
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/0DPoints"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -28,15 +26,6 @@
                 <dc:date>2013-05-31 15:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Observed Property evaluated at one point in space</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/0D"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/0DPoints">
-                <skos:prefLabel xml:lang="en">0D Points</skos:prefLabel>
-                <dc:date>2013-05-31 15:30:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">Observed Property evaluated at several points in space</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/0D"/>
             </skos:Concept>
         </skos:member>
