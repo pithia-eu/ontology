@@ -293,8 +293,8 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Ring-Current">
-                <skos:prefLabel xml:lang="en">Radiation Belt</skos:prefLabel>
-                <dc:date>2022-06-29 14:14:00.0</dc:date>
+                <skos:prefLabel xml:lang="en">Ring Current</skos:prefLabel>
+                <dc:date>2023-02-01 14:14:00.0</dc:date>
                 <owlxml:versionInfo>0.2</owlxml:versionInfo>
                 <skos:definition xml:lang="en"></skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Inner"/>
