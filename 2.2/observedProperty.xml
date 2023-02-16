@@ -566,8 +566,8 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaLayerType"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/ProfileShapeParameter"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/TotalElectronContent"/>
-                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/NumberDensity"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/NumberDensity"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -794,7 +794,7 @@
                 <skos:definition xml:lang="en">Particle transport flux of photons counted within the acceptance solid angle, the energy passband, and detection bin of a detector.</skos:definition>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PhotonFlux_Optical"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PhotonFlux_EUV"/>
-                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Photon"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/CountRate"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Differential_Time"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Integral_EnergyPassband"/>
@@ -810,7 +810,8 @@
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Photon flux in the visible spectrum.</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PhotonFlux"/>
-                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Optical"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectroMagneticWave"/>
+                <pithia:photonType rdf:resource="https://metadata.pithia.eu/ontology/2.2/photonType/Optical"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/CountRate"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Differential_Time"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Integral_EnergyPassband"/>
@@ -826,7 +827,8 @@
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Photon flux in the extreme ultraviolet spectrum.</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PhotonFlux"/>
-                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/EUV"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
+                <pithia:photonType rdf:resource="https://metadata.pithia.eu/ontology/2.2/photonType/EUV"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/CountRate"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Differential_Time"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Integral_EnergyPassband"/>
@@ -982,8 +984,8 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/LayerPeakHeight_Irregular"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/LayerPeakHeight_Regular"/>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/ElectronDensity"/>
-                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Altitude"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Altitude"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/AtMaximum"/>
             </skos:Concept>
         </skos:member>
@@ -1106,8 +1108,8 @@
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/HalfDensityHeight_F2-Layer"/>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/ElectronDensity"/>
-                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Altitude"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Altitude"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/AtHalfMaximum"/>
             </skos:Concept>
         </skos:member>
@@ -1119,8 +1121,8 @@
                 <dc:date>2013-10-10 23:22:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/HalfDensityHeight"/>
-                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Altitude"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Altitude"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/AtHalfMaximum"/>
             </skos:Concept>
         </skos:member>
@@ -1134,8 +1136,8 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/ProfileShapeParameter_IRI"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/ProfileShapeParameter_Parabolic"/>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/ElectronDensity"/>
-                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/NumberDensity"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/NumberDensity"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Approximation"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Shape"/>
             </skos:Concept>
@@ -1177,7 +1179,7 @@
                 <skos:altLabel xml:lang="en">B1</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">TThe shape parameter B1 of the electron density profile using IRI formalism</skos:definition>
+                <skos:definition xml:lang="en">The shape parameter B1 of the electron density profile using IRI formalism</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/ProfileShapeParameter_IRI"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/ModelParameter"/>
@@ -1191,7 +1193,7 @@
                 <skos:altLabel xml:lang="en">D1</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">TThe shape parameter D1 of the electron density profile using IRI formalism</skos:definition>
+                <skos:definition xml:lang="en">The shape parameter D1 of the electron density profile using IRI formalism</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/ProfileShapeParameter_IRI"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/ModelParameter"/>
@@ -1392,8 +1394,8 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/TotalElectronContent_Slant"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/TotalElectronContent_Vertical"/>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/ElectronDensity"/>
-                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/ColumnarContent"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/ColumnarContent"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -2885,8 +2887,8 @@
                 <dc:date>2013-10-10 08:58:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaLayerType"/>
-                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Type"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Type"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Shape"/>
             </skos:Concept>
         </skos:member>
@@ -3066,8 +3068,8 @@
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/SporadicE-Layer_Type"/>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/ElectronDensity"/>
-                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Type"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Type"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -3226,13 +3228,12 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SunspotNumber">
-                <skos:prefLabel xml:lang="en">International Sunspot Number</skos:prefLabel>
-                <skos:altLabel xml:lang="en">ISSN</skos:altLabel>
+                <skos:prefLabel xml:lang="en">Sunspot Number</skos:prefLabel>
                 <skos:definition xml:lang="en"></skos:definition>
                 <dc:date>2014-09-22 22:38:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Particle"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Count"/>
-                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/SolarActivity"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -3242,8 +3243,8 @@
                 <skos:definition xml:lang="en">A dummy deprecated term to demonstrate the use of a deprecated term</skos:definition>
                 <dc:date>2014-09-22 23:38:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Particle"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Count"/>
-                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/SolarActivity"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -3322,10 +3323,8 @@
                 <dc:date>2015-09-02 14:46:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaBoundaryPosition"/>
-                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Activity"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Field"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Particle"/>
-                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Photon"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Wave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Position"/>
             </skos:Concept>
@@ -3705,43 +3704,15 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/DisturbanceStormTimeIndex_Dst">
-                <skos:prefLabel xml:lang="en">Disturbance Storm Time Index Dst</skos:prefLabel>
-                <skos:altLabel xml:lang="en">Dst</skos:altLabel>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/RingCurrentIntensity">
+                <skos:prefLabel xml:lang="en">Ring Current</skos:prefLabel>
                 <skos:definition xml:lang="en">Measure of terrestrial ring current intensity based on ground-based magnetic measurements</skos:definition>
-                <dc:date>2015-12-10 21:11:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/GeomagneticActivity"/>
+                <dc:date>2023-02-15 20:11:00.0</dc:date>
+                <owlxml:versionInfo>0.2</owlxml:versionInfo>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Current"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Derived"/>
-                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Main"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/GlobalGeomagneticStormIndex_Kp">
-                <skos:prefLabel xml:lang="en">Global Geomagnetic Storm Index Kp</skos:prefLabel>
-                <skos:altLabel xml:lang="en">Kp</skos:altLabel>
-                <skos:definition xml:lang="en">Global average of the deviation of the most disturbed horizontal component of the magnetic field on a number of fixed magnetic stations (each with their own local K-index). It is a logarithmic scale based on an algorithm that puts the averages of the individual stations together</skos:definition>
-                <dc:date>2015-12-10 21:17:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/GeomagneticActivity"/>
-                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Strength"/>
-                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Derived"/>
-                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/VectorComponent_HDZ_H"/>
-                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Main"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/DailyAverageGeomagneticIndex_Ap">
-                <skos:prefLabel xml:lang="en">Daily average index of geomagnetic activity, Ap</skos:prefLabel>
-                <skos:altLabel xml:lang="en">Ap</skos:altLabel>
-                <skos:definition xml:lang="en">Global scale index of geomagnetic activity linked to Kp, derived by taking the individual station K-indices in log scale, converting them to linear values (ap, small a), and then averaging these all together over one day and all stations</skos:definition>
-                <dc:date>2015-12-10 21:23:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/GeomagneticActivity"/>
-                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Strength"/>
-                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/VectorComponent_HDZ_H"/>
-                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Main"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Ring-Current"/>
             </skos:Concept>
         </skos:member>
     </skos:ConceptScheme>

@@ -12,17 +12,47 @@
         <owlxml:versionInfo>0.1</owlxml:versionInfo>
         <dc:publisher>PITHIA</dc:publisher>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/ActivityIndex">
-                <skos:prefLabel xml:lang="en">Activity Index</skos:prefLabel>
-                <dc:date>2013-05-31 15:30:00.0</dc:date>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/ActivityIndicator">
+                <skos:prefLabel xml:lang="en">Activity Indicator</skos:prefLabel>
+                <dc:date>2023-02-15 19:55:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">
-                    A computed value that is interpreted as a level of activity within the feature or interest.
-                    While based on underlying acquisitions (measurements) and computations (medels) of real 
-                    physical quantities, an activity index may or may not directly correspond to an observed
-                    property with explicit definitions of its phenomenon, measurand, and units of the value 
-                    presentation.
+                    A computed value that is interpreted as a level (metric) of activity within the feature of 
+                    interest. While based on underlying acquisitions (measurements) and computations (medels) of 
+                    real physical quantities, an activity indicator may or may not directly correspond to an 
+                    observed property with explicit definitions of its phenomenon, measurand, and units of the 
+                    value presentation.
                 </skos:definition>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SolarActivity"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/InterplanetaryActivity"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/TerrestrialActivity"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/SolarActivity">
+                <skos:prefLabel xml:lang="en">Solar Activity Indicator</skos:prefLabel>
+                <dc:date>2023-02-15 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Activity indicator pertaining to events on the Sun.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ActivityIndicator"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/InterplanetaryActivity">
+                <skos:prefLabel xml:lang="en">Interplanetary Activity Indicator</skos:prefLabel>
+                <dc:date>2023-02-15 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Activity indicator pertaining to events in the Interplanetary Space.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ActivityIndicator"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/TerrestrialActivity">
+                <skos:prefLabel xml:lang="en">Terrestrial Activity Indicator</skos:prefLabel>
+                <dc:date>2023-02-15 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Activity indicator pertaining to events on the Earth.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ActivityIndicator"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
