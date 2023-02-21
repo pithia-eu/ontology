@@ -53,6 +53,36 @@
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Activity indicator pertaining to events on the Earth.</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ActivityIndicator"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/IonosphericActivity"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/IonosphericActivity">
+                <skos:prefLabel xml:lang="en">Ionospheric Activity Indicator</skos:prefLabel>
+                <dc:date>2023-02-21 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Activity indicator pertaining to events in the Earth's Ionosphere.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/TerrestrialActivity"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/AmplitudeScintillationIndexS4"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/PhaseScintillationIndexSigmaPhi"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/AmplitudeScintillationIndexS4">
+                <skos:prefLabel xml:lang="en">GNSS Amplitude Scintillation Index (S4)</skos:prefLabel>
+                <dc:date>2023-02-21 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Scintillation index derived from amplitude variations of GNSS signal.  It is defined as the normalized standard deviation of the detrended 50 Hz raw signal intensity over a given interval of time, typically 60 s.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/IonosphericActivity"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/PhaseScintillationIndexSigmaPhi">
+                <skos:prefLabel xml:lang="en">GNSS Phase Scintillation Index (SigmaPhi)</skos:prefLabel>
+                <dc:date>2023-02-21 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Scintillation index derived from phase fluctuations of the GNSS signal. It is defined as the standard deviation of the 50 Hz detrended carrier phase over a given interval of time, typically 60 s and is given in radians.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/IonosphericActivity"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
