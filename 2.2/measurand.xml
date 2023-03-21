@@ -124,9 +124,8 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/measurand/Direction">
                 <skos:prefLabel xml:lang="en">Direction</skos:prefLabel>
-                <skos:altLabel xml:lang="en">&amp;alpha;</skos:altLabel>
-                <dc:date>2013-05-31 21:30:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <dc:date>2023-03-21 07:30:00.0</dc:date>
+                <owlxml:versionInfo>0.2</owlxml:versionInfo>
                 <skos:definition xml:lang="en">The course along which an object points or moves expressed as a vector in a reference system of coordinates</skos:definition>
             </skos:Concept>
         </skos:member>
@@ -301,7 +300,7 @@
                 <skos:altLabel xml:lang="en">f</skos:altLabel>
                 <dc:date>2013-05-31 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">The limiting frequency of a radio wave at which an ionospheric layer reflects and transmits equally, and above which it penetrates through the layer</skos:definition>
+                <skos:definition xml:lang="en">The limiting frequency of a radio wave, normally incident at a plasma layer, at which the plasma layer reflects and transmits equally and above which the wave penetrates through the layer</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Frequency"/>
             </skos:Concept>
         </skos:member>
