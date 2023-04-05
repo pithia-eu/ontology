@@ -36,7 +36,6 @@
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Timelines with two independent variables (time and the input variable)</skos:definition>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/2DImage"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/2DAnimation"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/2DTimeseriesStacked"/>
             </skos:Concept>
         </skos:member>
@@ -84,17 +83,75 @@
                 <skos:prefLabel xml:lang="en">2D Animation</skos:prefLabel>
                 <dc:date>2013-05-31 15:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">Assembly of the source 2D images in continuous motion</skos:definition>
+                <skos:definition xml:lang="en">2D assembly of the source 1D data in time progression</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/2D"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/2DTimeseriesStacked">
-                <skos:prefLabel xml:lang="en">1D Stacked Time Series</skos:prefLabel>
-                <dc:date>2013-05-31 15:30:00.0</dc:date>
+                <skos:prefLabel xml:lang="en">Stack of 1D Time Series</skos:prefLabel>
+                <dc:date>2023-04-05 07:50:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">Stacked time series of multiple 0D observations or components of a vector 0D observation</skos:definition>
+                <skos:definition xml:lang="en">A stacked if 1D time series of multiple 0D observations, e.g. components of a vector or 0D data from multiple sensors</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/2D"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/3D">
+                <skos:prefLabel xml:lang="en">3D</skos:prefLabel>
+                <dc:date>2023-04-05 07:50:00.0</dc:date>
+                <owlxml:versionInfo>0.2</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Timelines with three independent variables (time and the input variable as 2D)</skos:definition>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/3DAnimation"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/3DStacked"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/3DAnimation">
+                <skos:prefLabel xml:lang="en">3D Animation</skos:prefLabel>
+                <dc:date>2023-04-05 07:50:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">3D assembly of the source 2D images in continuous time progression</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/3D"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/3DStacked">
+                <skos:prefLabel xml:lang="en">3D Stacked</skos:prefLabel>
+                <dc:date>2023-04-05 07:50:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Data that are naturally presented as a stack (not timeline) of 2D data that include 1D time dimension</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/3D"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/3DStackedSpectrograms"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/3DStackedSpectrograms">
+                <skos:prefLabel xml:lang="en">3D Stacked Spectrograms</skos:prefLabel>
+                <dc:date>2023-04-05 07:50:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">3D Data that consist of multiple 2D spectrograms, usually from different synchronous observations</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/3DStacked"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/3DStackedSpectrogramsFrequency"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/3DStackedSpectrogramsFrequency">
+                <skos:prefLabel xml:lang="en">3D Stacked Frequency Spectrograms</skos:prefLabel>
+                <dc:date>2023-04-05 07:50:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">3D Data that consist of multiple 2D frequency spectrograms, usually from different synchronous observations</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/3DStackedSpectrograms"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/3DStackedSpectrogramsFrequencyDoppler"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/3DStackedSpectrogramsFrequencyDoppler">
+                <skos:prefLabel xml:lang="en">3D Stacked Doppler Frequency Spectrograms</skos:prefLabel>
+                <dc:date>2023-04-05 07:50:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">3D Data that consist of multiple 2D Doppler frequency spectrograms, usually from different synchronous observations</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityTimeline/3DStackedSpectrogramsFrequency"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
