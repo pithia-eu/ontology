@@ -14,22 +14,23 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/ActivityIndicator">
                 <skos:prefLabel xml:lang="en">Activity Indicator</skos:prefLabel>
-                <dc:date>2023-02-15 19:55:00.0</dc:date>
+                <dc:date>2023-04-13 19:55:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">
                     A computed value that is interpreted as a level (metric) of activity within the feature of 
-                    interest. While based on underlying acquisitions (measurements) and computations (medels) of 
+                    interest. While based on underlying acquisitions (measurements) and computations (models) of 
                     real physical quantities, an activity indicator may or may not directly correspond to an 
                     observed property with explicit definitions of its phenomenon, measurand, and units of the 
                     value presentation.
                 </skos:definition>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SolarActivity"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/InterplanetaryActivity"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/TerrestrialActivity"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SolarActivityIndicator"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MagnetosphericActivityIndicator"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/IonosphericActivityIndicator"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/SolarActivity">
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/SolarActivityIndicator">
                 <skos:prefLabel xml:lang="en">Solar Activity Indicator</skos:prefLabel>
                 <dc:date>2023-02-15 19:55:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -38,31 +39,21 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/InterplanetaryActivity">
-                <skos:prefLabel xml:lang="en">Interplanetary Activity Indicator</skos:prefLabel>
-                <dc:date>2023-02-15 19:55:00.0</dc:date>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/MagnetosphericActivityIndicator">
+                <skos:prefLabel xml:lang="en">Magnetospheric Activity Indicator</skos:prefLabel>
+                <dc:date>2023-04-13 19:55:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">Activity indicator pertaining to events in the Interplanetary Space.</skos:definition>
+                <skos:definition xml:lang="en">Activity indicator pertaining to events in the Magnetosphere of the Earth.</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ActivityIndicator"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/TerrestrialActivity">
-                <skos:prefLabel xml:lang="en">Terrestrial Activity Indicator</skos:prefLabel>
-                <dc:date>2023-02-15 19:55:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">Activity indicator pertaining to events on the Earth.</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ActivityIndicator"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/IonosphericActivity"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/IonosphericActivity">
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/IonosphericActivityIndicator">
                 <skos:prefLabel xml:lang="en">Ionospheric Activity Indicator</skos:prefLabel>
-                <dc:date>2023-02-21 19:55:00.0</dc:date>
+                <dc:date>2023-04-13 19:55:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Activity indicator pertaining to events in the Earth's Ionosphere.</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/TerrestrialActivity"/>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ActivityIndicator"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/AmplitudeScintillationIndexS4"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/PhaseScintillationIndexSigmaPhi"/>
             </skos:Concept>
@@ -73,7 +64,7 @@
                 <dc:date>2023-02-21 19:55:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Scintillation index derived from amplitude variations of GNSS signal.  It is defined as the normalized standard deviation of the detrended 50 Hz raw signal intensity over a given interval of time, typically 60 s.</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/IonosphericActivity"/>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/IonosphericActivityIndicator"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -82,7 +73,57 @@
                 <dc:date>2023-02-21 19:55:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Scintillation index derived from phase fluctuations of the GNSS signal. It is defined as the standard deviation of the 50 Hz detrended carrier phase over a given interval of time, typically 60 s and is given in radians.</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/IonosphericActivity"/>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/IonosphericActivityIndicator"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator">
+                <skos:prefLabel xml:lang="en">Geomagnetic Activity Indicator</skos:prefLabel>
+                <dc:date>2023-04-13 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Activity indicator pertaining to disturbances in the geomagnetic field.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ActivityIndicator"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Global"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Local"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Global">
+                <skos:prefLabel xml:lang="en">Global Geomagnetic Activity Indicator</skos:prefLabel>
+                <dc:date>2023-04-13 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Activity indicator pertaining to mean global disturbances in the geomagnetic field.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Kp_index"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Hp30_index"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Hp60_index"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/Kp-index">
+                <skos:prefLabel xml:lang="en">Kp Index, 3-hourly computation</skos:prefLabel>
+                <dc:date>2023-04-13 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Three-hourly sub-auroral geomagnetic activity indicator.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Global"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/Hp30-index">
+                <skos:prefLabel xml:lang="en">Hp30 Index, 30-minute computation</skos:prefLabel>
+                <dc:date>2023-04-13 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Thirty-minute sub-auroral geomagnetic activity indicator.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Global"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/Hp60-index">
+                <skos:prefLabel xml:lang="en">Hp60 Index, 60-minute computation</skos:prefLabel>
+                <dc:date>2023-04-13 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Sixty-minute (hourly) sub-auroral geomagnetic activity indicator.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Global"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
