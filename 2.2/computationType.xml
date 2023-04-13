@@ -36,6 +36,68 @@
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Activity indicator pertaining to events on the Sun.</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ActivityIndicator"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SunSpotNumber"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/F10.7"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/SunSpotNumber">
+                <skos:prefLabel xml:lang="en">Solar Activity Indicator</skos:prefLabel>
+                <dc:date>2023-02-15 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Activity indicator pertaining to events on the Sun.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SolarActivityIndicator"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/InternationalSunSpotNumber_2.0"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/InternationalSunSpotNumber_2.0">
+                <skos:prefLabel xml:lang="en">International Sun Spot Number verion 2.0</skos:prefLabel>
+                <dc:date>2023-02-15 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">
+			The international sunspot number SN (written with subscript N) is given as the daily total sunspot number 
+			version 2.0 introduced in 2015 and provided by WDC-SILSO, Royal Observatory of Belgium, Brussels.
+		</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SunSpotNumber"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/F10.7">
+                <skos:prefLabel xml:lang="en">F10.7 Solar Radio Flux</skos:prefLabel>
+                <dc:date>2023-02-15 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">
+			Local noon-time 10.7 cm solar radio flux provided by Dominion Radio Astrophysical Observatory and 
+			Natural Resources Canada.
+		</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SolarActivityIndicator"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/F10.7_observed"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/F10.7_adjusted"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/F10.7_observed">
+                <skos:prefLabel xml:lang="en">F10.7 Solar Radio Flux, Observed</skos:prefLabel>
+                <dc:date>2023-02-15 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">
+			Local noon-time 10.7 cm solar radio flux as observed and provided by Dominion Radio Astrophysical Observatory and 
+			Natural Resources Canada.
+		</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/F10.7"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/F10.7_adjusted">
+                <skos:prefLabel xml:lang="en">F10.7 Solar Radio Flux, Adjusted</skos:prefLabel>
+                <dc:date>2023-02-15 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">
+			Local noon-time 10.7 cm solar radio flux, observed, adjusted, and provided by Dominion Radio Astrophysical Observatory and 
+			Natural Resources Canada.
+		</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/F10.7"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -97,20 +159,23 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Kp_index"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Hp30_index"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Hp60_index"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Ap_index"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ap_index"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/Kp-index">
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/Kp_index">
                 <skos:prefLabel xml:lang="en">Kp Index, 3-hourly computation</skos:prefLabel>
                 <dc:date>2023-04-13 19:55:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">Three-hourly sub-auroral geomagnetic activity indicator.</skos:definition>
+                <skos:definition xml:lang="en">Three-hourly sub-auroral geomagnetic activity indicator provided by GFZ Potsdam, Germany.</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Global"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Kp_index"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/Hp30-index">
-                <skos:prefLabel xml:lang="en">Hp30 Index, 30-minute computation</skos:prefLabel>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/Hp30_index">
+                <skos:prefLabel xml:lang="en">Hp30 Index, 30-minute Kp-like computation</skos:prefLabel>
                 <dc:date>2023-04-13 19:55:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Thirty-minute sub-auroral geomagnetic activity indicator.</skos:definition>
@@ -118,12 +183,59 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/Hp60-index">
-                <skos:prefLabel xml:lang="en">Hp60 Index, 60-minute computation</skos:prefLabel>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/Hp60_index">
+                <skos:prefLabel xml:lang="en">Hp60 Index, 60-minute Kp-like computation</skos:prefLabel>
                 <dc:date>2023-04-13 19:55:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Sixty-minute (hourly) sub-auroral geomagnetic activity indicator.</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Global"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/ap_index">
+                <skos:prefLabel xml:lang="en">ap Index (Linear representation of Kp)</skos:prefLabel>
+                <dc:date>2023-04-13 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Linear representation of the quasi-logarithmic Kp index.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Global"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/Ap_index">
+                <skos:prefLabel xml:lang="en">Ap Index, Daily Mean of ap Indices</skos:prefLabel>
+                <dc:date>2023-04-13 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Daily mean of ap sub-auroral geomagnetic activity indicators.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Global"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Local">
+                <skos:prefLabel xml:lang="en">Local Geomagnetic Activity Indicator</skos:prefLabel>
+                <dc:date>2023-04-13 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Activity indicator pertaining to locally observed disturbances in the geomagnetic field.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/a_indices"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/K_indices"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/K_indices">
+                <skos:prefLabel xml:lang="en">K indices</skos:prefLabel>
+                <dc:date>2023-04-13 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Three-hourly geomagnetic disturbance indicator provided by individual stations.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Local"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/a_indices">
+                <skos:prefLabel xml:lang="en">a indices</skos:prefLabel>
+                <dc:date>2023-04-13 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Three-hourly linear representation geomagnetic disturbance indicator provided by individual stations.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Local"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
