@@ -18,7 +18,7 @@
                 <skos:altLabel xml:lang="en">E</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">The DC electric field strength and direction</skos:definition>
+                <skos:definition xml:lang="en">The electric field strength and direction</skos:definition>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/ElectricField_Magnitude"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/ElectricField_Potential"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectricField"/>
@@ -33,7 +33,7 @@
                 <skos:altLabel xml:lang="en">|E|</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">The DC electric field strength (partial specification of Electric Field)</skos:definition>
+                <skos:definition xml:lang="en">The electric field strength (partial specification of Electric Field)</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/ElectricField"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectricField"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Strength"/>
@@ -61,8 +61,13 @@
                 <skos:altLabel xml:lang="en">B</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">The DC magnetic field strength and direction</skos:definition>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MagneticField_Magnitude"/>
+                <skos:definition xml:lang="en">The magnetic field strength and direction</skos:definition>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MagneticField_Vector"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MagneticField_Scalar"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/MagneticField"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Direction"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Strength"/>
+<!--
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MagneticField_Bx"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MagneticField_By"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MagneticField_Bz"/>
@@ -73,25 +78,36 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MagneticField_DeclinationAngle"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MagneticField_Bd"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MagneticField_Bh"/>
+-->
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MagneticField_Vector">
+                <skos:prefLabel xml:lang="en">Magnetic Field Vector</skos:prefLabel>
+                <skos:altLabel xml:lang="en">B</skos:altLabel>
+                <dc:date>2023-04-13 21:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">The magnetic field vector</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MagneticField"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/MagneticField"/>
-                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Direction"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Strength"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Vector"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MagneticField_Magnitude">
-                <skos:prefLabel xml:lang="en">Magnetic Field Magnitude</skos:prefLabel>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MagneticField_Scalar">
+                <skos:prefLabel xml:lang="en">Magnetic Field Scalar</skos:prefLabel>
                 <skos:altLabel xml:lang="en">|B|</skos:altLabel>
-                <dc:date>2013-06-01 21:30:00.0</dc:date>
+                <dc:date>2023-04-13 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">The DC magnetic field strength (partial specification of Magnetic Field)</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/ElectricField"/>
+                <skos:definition xml:lang="en">The magnetic field strength (partial, scalar specification of Magnetic Field)</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MagneticField"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/MagneticField"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Strength"/>
-                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/VectorMagnitude"/>
+                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Scalar"/>
             </skos:Concept>
         </skos:member>
+<!--
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MagneticField_Bx">
                 <skos:prefLabel xml:lang="en">Magnetic Field GSM X-component</skos:prefLabel>
@@ -314,6 +330,7 @@
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/VariationAboutMean"/>
             </skos:Concept>
         </skos:member>
+-->
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralWindVelocity">
                 <skos:prefLabel xml:lang="en">Neutral Wind Velocity</skos:prefLabel>
