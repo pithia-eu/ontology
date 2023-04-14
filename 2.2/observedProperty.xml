@@ -588,15 +588,57 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/ElectronDriftVelocity">
-                <skos:prefLabel xml:lang="en">Electron Drift Velocity</skos:prefLabel>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/ElectronVelocity">
+                <skos:prefLabel xml:lang="en">Electron Velocity</skos:prefLabel>
+                <skos:altLabel xml:lang="en">Ve</skos:altLabel>
+                <dc:date>2013-06-01 21:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">The electron velocity vector</skos:definition>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/ElectronDriftVelocity"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/ElectronVelocity_Heliosphere"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Velocity"/>
+                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Vector"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/ElectronVelocity_Drift">
+                <skos:prefLabel xml:lang="en">Electron Drift Velocity in the Earth's Ionosphere</skos:prefLabel>
                 <skos:altLabel xml:lang="en">Ve</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">The electron drift velocity vector</skos:definition>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/BulkVelocity"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Ionosphere"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Vector"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/ElectronVelocity_Heliosphere">
+                <skos:prefLabel xml:lang="en">Electron Velocity in the Heliosphere</skos:prefLabel>
+                <skos:altLabel xml:lang="en">Ve</skos:altLabel>
+                <dc:date>2013-06-01 21:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">The electron velocity vector of the solar wind</skos:definition>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/BulkVelocity"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Heliosphere"/>
+                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Vector"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaTemperature">
+                <skos:prefLabel xml:lang="en">Plasma Temperature</skos:prefLabel>
+                <skos:altLabel xml:lang="en">Tp</skos:altLabel>
+                <dc:date>2023-04-14 21:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Plasma temperature</skos:definition>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/ElectronTemperature"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/ProtonTemperature"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaTemperature_MHD"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ChargedParticle"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Temperature"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -606,7 +648,32 @@
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Electron temperature</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaTemperature"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Temperature"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/ProtonTemperature">
+                <skos:prefLabel xml:lang="en">Proton Temperature</skos:prefLabel>
+                <skos:altLabel xml:lang="en">T+</skos:altLabel>
+                <dc:date>2023-04-14 21:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Proton temperature</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaTemperature"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Proton"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Temperature"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaTemperature_MHD">
+                <skos:prefLabel xml:lang="en">Plasma Temperature in MHD calculations</skos:prefLabel>
+                <skos:altLabel xml:lang="en">Te</skos:altLabel>
+                <dc:date>2023-04-14 21:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Plasma temperature in the MHD framework</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaTemperature"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ChargedParticle"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Temperature"/>
             </skos:Concept>
         </skos:member>
