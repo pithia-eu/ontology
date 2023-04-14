@@ -678,6 +678,30 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/ThermalPressure">
+                <skos:prefLabel xml:lang="en">Thermal Pressure</skos:prefLabel>
+                <skos:altLabel xml:lang="en">Pt</skos:altLabel>
+                <dc:date>2023-04-14 21:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Thermal Pressure</skos:definition>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/ThermalPressure_Plasma"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Particle"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Pressure"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/ThermalPressure_Plasma">
+                <skos:prefLabel xml:lang="en">Thermal Pressure of Plasma</skos:prefLabel>
+                <skos:altLabel xml:lang="en">Pt</skos:altLabel>
+                <dc:date>2023-04-14 21:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Thermal Pressure of Plasma</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/ThermalPressure"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ChargedParticle"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Pressure"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/ElectronFlux">
                 <skos:prefLabel xml:lang="en">Electron Flux</skos:prefLabel>
                 <skos:altLabel xml:lang="en">Fe</skos:altLabel>
