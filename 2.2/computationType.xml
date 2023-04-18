@@ -248,6 +248,7 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/EmpiricalModel"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/AssimilativeModel"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MathematicalModel"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SemiEmpiricalModel"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -335,6 +336,15 @@
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Conversion of slant to vertical TEC</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MathematicalModel"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/SemiEmpiricalModel">
+                <skos:prefLabel xml:lang="en">Semi-Empirical Model</skos:prefLabel>
+                <dc:date>2023-04-18 15:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Semi-empirical models are based on previously observed system behavior (empirical) yet data-driven to match current conditions</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Model"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
