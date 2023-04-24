@@ -36,30 +36,31 @@
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Activity indicator pertaining to events on the Sun.</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ActivityIndicator"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SunSpotNumber"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SunspotNumber"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/F10.7"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/SunSpotNumber">
-                <skos:prefLabel xml:lang="en">Solar Activity Indicator</skos:prefLabel>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/SunspotNumber">
+                <skos:prefLabel xml:lang="en">Sunspot Number</skos:prefLabel>
                 <dc:date>2023-02-15 19:55:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Activity indicator pertaining to events on the Sun.</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SolarActivityIndicator"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/InternationalSunSpotNumber_2.0"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SunspotNumber_2.0"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/F10.7"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/InternationalSunSpotNumber_2.0">
-                <skos:prefLabel xml:lang="en">International Sun Spot Number verion 2.0</skos:prefLabel>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/SunspotNumber_2.0">
+                <skos:prefLabel xml:lang="en">Sunspot Number version 2.0</skos:prefLabel>
                 <dc:date>2023-02-15 19:55:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">
-			The international sunspot number SN (written with subscript N) is given as the daily total sunspot number 
+			The sunspot number SN (written with subscript N) is given as the daily total sunspot number 
 			version 2.0 introduced in 2015 and provided by WDC-SILSO, Royal Observatory of Belgium, Brussels.
 		</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SunSpotNumber"/>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SunspotNumber"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -249,6 +250,7 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/AssimilativeModel"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MathematicalModel"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SemiEmpiricalModel"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SemiTheoreticalModel"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -424,7 +426,6 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/SemiTheoreticalModel">
                 <skos:prefLabel xml:lang="en">Semi Theoretical</skos:prefLabel>
-                <skos:altLabel xml:lang="en">Semi Theoretical</skos:altLabel>
                 <dc:date>2014-05-04 14:31:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Model"/>
