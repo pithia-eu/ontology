@@ -353,14 +353,17 @@
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">A component of neutral bulk wind velocity vector</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralWindVelocity"/>
+<!--
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralWindVelocity_Vertical"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralWindVelocity_Zonal"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralWindVelocity_Meridional"/>
+-->
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/NeutralParticle"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/BulkVelocity"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/VectorComponent"/>
             </skos:Concept>
         </skos:member>
+<!--
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralWindVelocity_Zonal">
                 <skos:prefLabel xml:lang="en">Zonal Neutral Wind Velocity</skos:prefLabel>
@@ -429,6 +432,7 @@
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Projection_ENU_XY"/>
             </skos:Concept>
         </skos:member>
+-->
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralTemperature">
                 <skos:prefLabel xml:lang="en">Neutral Temperature</skos:prefLabel>
@@ -625,6 +629,54 @@
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/BulkVelocity"/>
                 <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Heliosphere"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Vector"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaVelocity_MHD">
+                <skos:prefLabel xml:lang="en">Velocity of magnetofluid plasma in MHD approach</skos:prefLabel>
+                <dc:date>2023-05-03 21:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">The velocity of charged particles treated as magnetofluid plasma in magnetohydrodynamics approach</skos:definition>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaVelocity_MHD_Heliosphere"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ChargedParticle"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/BulkVelocity"/>
+                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Vector"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaVelocity_MHD_Heliosphere">
+                <skos:prefLabel xml:lang="en">Velocity of solar wind plasma in MHD approach</skos:prefLabel>
+                <dc:date>2023-05-03 21:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">The bulk velocity of charged particles of solar wind treated as magnetofluid plasma in magnetohydrodynamics approach</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaDensity_MHD"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ChargedParticle"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/BulkVelocity"/>
+                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Vector"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Heliosphere"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaDensity_MHD">
+                <skos:prefLabel xml:lang="en">Density of magnetofluid plasma in MHD approach</skos:prefLabel>
+                <dc:date>2023-05-03 21:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">The number density of charged particles treated as magnetofluid plasma in magnetohydrodynamics approach</skos:definition>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaDensity_MHD_Heliosphere"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ChargedParticle"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/NumberDensity"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaDensity_MHD_Heliosphere">
+                <skos:prefLabel xml:lang="en">Density of the solar wind plasma in MHD approach</skos:prefLabel>
+                <dc:date>2023-05-03 21:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">The number density of solar wind charged particles treated as magnetofluid plasma in magnetohydrodynamics approach</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaDensity_MHD"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ChargedParticle"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/NumberDensity"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Heliosphere"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
