@@ -327,5 +327,23 @@
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
             </skos:Concept>
         </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/unit/Pascal">
+                <skos:prefLabel xml:lang="en">Pascal</skos:prefLabel>
+                <skos:altLabel xml:lang="en">Pa</skos:altLabel>
+                <skos:definition xml:lang="en">SI unit of pressure</skos:definition>
+                <dc:date>2023-04-06 23:03:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/unit/sfu">
+                <skos:prefLabel xml:lang="en">Solar Flux Units</skos:prefLabel>
+                <skos:altLabel xml:lang="en">sfu</skos:altLabel>
+                <skos:definition xml:lang="en">Solar flux in 10^-22 Watt per m2 per Hz</skos:definition>
+                <dc:date>2023-05-04 23:03:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+            </skos:Concept>
+        </skos:member>
     </skos:ConceptScheme>
 </rdf:RDF>
