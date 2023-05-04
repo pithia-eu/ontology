@@ -211,6 +211,7 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/ReceiverElectric"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/ReceiverMagnetic"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/Riometer"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/RadioTelescope"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -237,6 +238,18 @@
                 <dc:date>2013-06-21 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">A receiver that measures the intensity of known galactic sources of radio emissions to detect effects of various space weather activities on fluctuations of the signal.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/Receiver"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/instrumentType/RadioTelescope">
+                <skos:prefLabel xml:lang="en">RadioTelescope</skos:prefLabel>
+                <dc:date>2023-05-04 21:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">
+                    A receiver that measures the intensity of radio emissions, usually with a narrow reception beamwidth by means of a parabolic 
+                    antenna system.
+                </skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/Receiver"/>
             </skos:Concept>
         </skos:member>
