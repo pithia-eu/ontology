@@ -187,6 +187,7 @@
                 <skos:definition xml:lang="en">Observed Property evaluated as an (x,y) image</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/2D"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/2DImageFrequencyRange"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/2DImageHeliogram"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -216,6 +217,15 @@
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Observed Property evaluated as a frequency (x) versus range (y) plasmagram</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/2DImageFrequencyRange"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/2DImageHeliogram">
+                <skos:prefLabel xml:lang="en">2D Image of the Solar Disk</skos:prefLabel>
+                <dc:date>2023-05-04 15:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">White-light image of the Solar Disk</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/dimensionalityInstance/2DImage"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
