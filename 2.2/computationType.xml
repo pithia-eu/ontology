@@ -119,6 +119,9 @@
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ActivityIndicator"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/AmplitudeScintillationIndexS4"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/PhaseScintillationIndexSigmaPhi"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/PhaseScintillationIndexSigmaPhi"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/RateOfTEC"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/RateOfTECIndex"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -136,6 +139,24 @@
                 <dc:date>2023-02-21 19:55:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Scintillation index derived from phase fluctuations of the GNSS signal. It is defined as the standard deviation of the 50 Hz detrended carrier phase over a given interval of time, typically 60 s and is given in radians.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/IonosphericActivityIndicator"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/RateOfTEC">
+                <skos:prefLabel xml:lang="en">Rate of change of TEC (ROT)</skos:prefLabel>
+                <dc:date>2023-05-05 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Rate Of change of TEC (ROT) is the time derivative of the slant Total Electron Content (sTEC) values evaluated between two epochs.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/IonosphericActivityIndicator"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/RateOfTECIndex">
+                <skos:prefLabel xml:lang="en">Rate of TEC Index</skos:prefLabel>
+                <dc:date>2023-05-05 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Rate Of TEC Index (ROTI) is defined as the standard deviation of the Rate of change of TEC (ROT) evaluated for every radio link over a time-interval typically of 1 to 5 minutes.</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/IonosphericActivityIndicator"/>
             </skos:Concept>
         </skos:member>
