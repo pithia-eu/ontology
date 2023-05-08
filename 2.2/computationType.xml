@@ -48,7 +48,6 @@
                 <skos:definition xml:lang="en">Activity indicator pertaining to events on the Sun.</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SolarActivityIndicator"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SunspotNumber_2.0"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/F10.7"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
