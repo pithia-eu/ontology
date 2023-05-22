@@ -2862,7 +2862,7 @@
                 <dc:date>2022-10-24 22:10:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">The highest frequency for ionospheric transmission over D km ground distance through F2 layer</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_3000km"/>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_D"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/MaximumUsableFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
@@ -2878,7 +2878,7 @@
                 <dc:date>2022-10-24 22:10:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">The highest frequency for ionospheric transmission over D km ground distance through F1 Layer</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_3000km"/>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_D"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/MaximumUsableFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
@@ -2894,7 +2894,7 @@
                 <dc:date>2022-10-24 22:10:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">The highest frequency for ionospheric transmission over D km ground distance through E layer</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_3000km"/>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_D"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/MaximumUsableFrequency"/>
                 <pithia:propagationMode rdf:resource="https://metadata.pithia.eu/ontology/2.2/propagationMode/O"/>
