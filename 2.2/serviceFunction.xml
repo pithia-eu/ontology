@@ -13,16 +13,24 @@
         <dc:publisher>PITHIA</dc:publisher>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/serviceFunction/Download">
-                <skos:prefLabel xml:lang="en">Download</skos:prefLabel>
-                <dc:date>2013-05-31 15:00:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:prefLabel xml:lang="en">Direct data download</skos:prefLabel>
+                <dc:date>2023-09-13 10:00:00.0</dc:date>
+                <owlxml:versionInfo>0.2</owlxml:versionInfo>
                 <skos:definition xml:lang="en"></skos:definition>
             </skos:Concept>
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/serviceFunction/ViewOnly">
-                <skos:prefLabel xml:lang="en">For view only</skos:prefLabel>
-                <dc:date>2013-05-31 15:00:00.0</dc:date>
+                <skos:prefLabel xml:lang="en">Access to display products</skos:prefLabel>
+                <dc:date>2023-09-13 10:00:00.0</dc:date>
+                <owlxml:versionInfo>0.2</owlxml:versionInfo>
+                <skos:definition xml:lang="en"></skos:definition>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/serviceFunction/Application">
+                <skos:prefLabel xml:lang="en">Landing page to an application download for data access</skos:prefLabel>
+                <dc:date>2023-09-13 10:00:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en"></skos:definition>
             </skos:Concept>
