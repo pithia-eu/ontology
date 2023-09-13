@@ -168,6 +168,7 @@
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ActivityIndicator"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Global"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Local"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Regional"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -277,6 +278,25 @@
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Three-hourly linear representation geomagnetic disturbance indicator provided by individual stations.</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Local"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Regional">
+                <skos:prefLabel xml:lang="en">Local Geomagnetic Activity Indicator</skos:prefLabel>
+                <dc:date>2023-04-13 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Activity indicator pertaining to locally observed disturbances in the geomagnetic field.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/PCN_index"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/PCN_index">
+                <skos:prefLabel xml:lang="en">PCN Index, 1-minute Polar Cap Geomagnetic Activity</skos:prefLabel>
+                <dc:date>2023-09-13 16:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">The PCN index monitors geomagnetic activity on the Northern Polar Cap.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Regional"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
