@@ -1220,7 +1220,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/TotalElectronContent">
-                <skos:prefLabel xml:lang="en">Total El	ectron Content</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Total Electron Content</skos:prefLabel>
                 <skos:altLabel xml:lang="en">TEC</skos:altLabel>
                 <skos:definition xml:lang="en">Total Electron Content (TEC) integrated along a path in plasma layer</skos:definition>
                 <dc:date>2013-10-10 23:04:00.0</dc:date>
@@ -3077,17 +3077,6 @@
                 <skos:prefLabel xml:lang="en">Sunspot Number</skos:prefLabel>
                 <skos:definition xml:lang="en"></skos:definition>
                 <dc:date>2014-09-22 22:38:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Particle"/>
-                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Count"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/DummyDeprecatedTerm">
-                <skos:prefLabel xml:lang="en">Dummy Deprecated Term</skos:prefLabel>
-                <skos:altLabel xml:lang="en">Dummy</skos:altLabel>
-                <skos:definition xml:lang="en">A dummy deprecated term to demonstrate the use of a deprecated term</skos:definition>
-                <dc:date>2014-09-22 23:38:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Particle"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Count"/>
