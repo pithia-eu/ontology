@@ -110,7 +110,7 @@
 <!--
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MagneticField_Bx">
-                <skos:prefLabel xml:lang="en">Magnetic Field GSM X-component</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Magnetic Field GSM X-component (Bx)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">Bx</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -124,7 +124,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MagneticField_By">
-                <skos:prefLabel xml:lang="en">Magnetic Field GSM Y-component</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Magnetic Field GSM Y-component (By)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">By</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -138,7 +138,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MagneticField_Bz">
-                <skos:prefLabel xml:lang="en">Magnetic Field GSM Z-component</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Magnetic Field GSM Z-component (Bz)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">Bz</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -458,7 +458,7 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralDensity">
                 <skos:prefLabel xml:lang="en">Neutral Density</skos:prefLabel>
-                <skos:altLabel xml:lang="en">Ne</skos:altLabel>
+                <skos:altLabel xml:lang="en">N</skos:altLabel>
                 <skos:definition xml:lang="en">Number density of neutral particles</skos:definition>
                 <dc:date>2022-11-30 09:00:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -517,7 +517,7 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralTemperature">
                 <skos:prefLabel xml:lang="en">Neutral Temperature</skos:prefLabel>
-                <skos:altLabel xml:lang="en">Ne</skos:altLabel>
+                <skos:altLabel xml:lang="en">Tn</skos:altLabel>
                 <skos:definition xml:lang="en">Temperature of neutral particles</skos:definition>
                 <dc:date>2022-11-30 09:00:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -575,7 +575,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/ElectronDensity">
-                <skos:prefLabel xml:lang="en">Electron Density</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Electron Density (Ne)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">Ne</skos:altLabel>
                 <skos:definition xml:lang="en">Number density of electrons</skos:definition>
                 <dc:date>2013-10-10 09:43:00.0</dc:date>
@@ -593,7 +593,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/ElectronVelocity">
-                <skos:prefLabel xml:lang="en">Electron Velocity</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Electron Velocity (Ve)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">Ve</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -731,7 +731,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/ThermalPressure">
-                <skos:prefLabel xml:lang="en">Thermal Pressure</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Thermal Pressure (Pt)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">Pt</skos:altLabel>
                 <dc:date>2023-04-14 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -743,7 +743,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/ThermalPressure_Plasma">
-                <skos:prefLabel xml:lang="en">Thermal Pressure of Plasma</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Thermal Pressure of Plasma (Pt)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">Pt</skos:altLabel>
                 <dc:date>2023-04-14 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -766,7 +766,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/IonDensity">
-                <skos:prefLabel xml:lang="en">Ion Density</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Ion Density (Ni)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">Ni</skos:altLabel>
                 <skos:definition xml:lang="en">Number density of ions</skos:definition>
                 <dc:date>2013-12-04 17:47:00.0</dc:date>
@@ -780,7 +780,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/IonDriftVelocity">
-                <skos:prefLabel xml:lang="en">Ion Drift Velocity</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Ion Drift Velocity (Vi)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">Vi</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -792,7 +792,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/IonTemperature">
-                <skos:prefLabel xml:lang="en">Ion Temperature</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Ion Temperature (Ti)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">Ti</skos:altLabel>
                 <skos:definition xml:lang="en">Ion temperature</skos:definition>
                 <dc:date>2013-12-04 17:47:00.0</dc:date>
@@ -806,7 +806,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/IonFlux">
-                <skos:prefLabel xml:lang="en">Ion Flux</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Ion Flux (Fi)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">Fi</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -1042,7 +1042,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/PeakDensity_E-Layer">
-                <skos:prefLabel xml:lang="en">E layer peak electron density</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">E layer peak electron density (NmE)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">NmE</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -1055,7 +1055,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/PeakDensity_F1-Layer">
-                <skos:prefLabel xml:lang="en">F1 layer peak electron density</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">F1 layer peak electron density (NmF1)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">NmF1</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -1068,7 +1068,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/PeakDensity_F2-Layer">
-                <skos:prefLabel xml:lang="en">F2 layer peak electron density</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">F2 layer peak electron density (NmF2)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">NmF2</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -1097,7 +1097,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/PeakDensity_Es-Layer">
-                <skos:prefLabel xml:lang="en">Es layer peak electron density</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Es layer peak electron density (NmEs)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">NmEs</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -1110,7 +1110,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/PeakDensity_Ea-Layer">
-                <skos:prefLabel xml:lang="en">Ea layer peak electron density</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Ea layer peak electron density (NmEa)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">NmEa</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -1167,7 +1167,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/PeakHeight_E-Layer">
-                <skos:prefLabel xml:lang="en">E layer peak height</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">E layer peak height (zmE, hmE)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">zmE</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -1180,7 +1180,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/PeakHeight_F1-Layer">
-                <skos:prefLabel xml:lang="en">F1 layer peak height</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">F1 layer peak height (zmF1, hmF1)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">zmF1</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -1193,7 +1193,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/PeakHeight_F2-Layer">
-                <skos:prefLabel xml:lang="en">F2 layer peak height</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">F2 layer peak height (zmF2, hmF2)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">zmF2</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -1222,7 +1222,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/PeakHeight_Es-Layer">
-                <skos:prefLabel xml:lang="en">Es layer peak electron density</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Es layer peak electron density (zmEs, hmEs)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">zmEs</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -1235,7 +1235,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/PeakHeight_Ea-Layer">
-                <skos:prefLabel xml:lang="en">Ea layer peak height</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Ea layer peak height (zmEa, hmEa)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">zmEa</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -1261,7 +1261,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/HalfDensityHeight">
-                <skos:prefLabel xml:lang="en">Height of a layer at half peak density</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Height of a layer at half peak density (zhalfNm)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">zhalfNm</skos:altLabel>
                 <skos:definition xml:lang="en">True height of the layer at its half peak density</skos:definition>
                 <dc:date>2013-10-17 23:01:00.0</dc:date>
@@ -1276,7 +1276,7 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/HalfDensityHeight_F2-Layer">
                 <skos:prefLabel xml:lang="en">F2 layer half-density height</skos:prefLabel>
-                <skos:altLabel xml:lang="en">zhalfNm</skos:altLabel>
+                <skos:altLabel xml:lang="en">zhalfNmF2</skos:altLabel>
                 <skos:definition xml:lang="en">True height at half peak electron density of F2 layer</skos:definition>
                 <dc:date>2013-10-10 23:22:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -1396,7 +1396,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/PeakHeight_E-Layer_Parabolic">
-                <skos:prefLabel xml:lang="en">Parabolic-approximation E layer peak height</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Parabolic-approximation E layer peak height (HOM)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">HOM</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -1411,7 +1411,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/PeakHeight_F2-Layer_Parabolic">
-                <skos:prefLabel xml:lang="en">Parabolic-approximation peak height of F2 layer</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Parabolic-approximation peak height of F2 layer (hpF2)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">hpF2</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -1460,7 +1460,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SemiThickness_E-Layer_Parabolic">
-                <skos:prefLabel xml:lang="en">Parabolic-approximation E layer semi-thickness</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Parabolic-approximation E layer semi-thickness (yE)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">yE</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -1474,7 +1474,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SemiThickness_F2-Layer_Parabolic">
-                <skos:prefLabel xml:lang="en">Parabolic-approximation F2 layer semi-thickness</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Parabolic-approximation F2 layer semi-thickness (yF2)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">yF2</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -1488,7 +1488,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/SemiThickness_F1-Layer_Parabolic">
-                <skos:prefLabel xml:lang="en">Parabolic-approximation F1 layer semi-thickness</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Parabolic-approximation F1 layer semi-thickness (yF1)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">yF1</skos:altLabel>
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -1546,10 +1546,10 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/TotalElectronContent">
-                <skos:prefLabel xml:lang="en">Total Electron Content</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Total Electron Content (TEC)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">I</skos:altLabel>
                 <skos:definition xml:lang="en">Total Electron Content (TEC) integrated along a path in plasma layer</skos:definition>
-                <dc:date>2013-10-10 23:04:00.0</dc:date>
+                <dc:date>2023-09-13 12:10:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/TotalElectronContent_Slant"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/TotalElectronContent_Vertical"/>
@@ -1560,9 +1560,9 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/TotalElectronContent_Slant">
-                <skos:prefLabel xml:lang="en">Total Slant Electron Content</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Total Slant Electron Content (STEC)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">I</skos:altLabel>
-                <dc:date>2013-06-01 21:30:00.0</dc:date>
+                <dc:date>2023-09-13 12:10:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">TEC integrated along a slant path from spacecraft to ground</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/TotalElectronContent"/>
@@ -1575,9 +1575,9 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/TotalElectronContent_Vertical">
-                <skos:prefLabel xml:lang="en">Total Vertical Electron Content</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Total Vertical Electron Content (VTEC)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">I</skos:altLabel>
-                <dc:date>2013-06-01 21:30:00.0</dc:date>
+                <dc:date>2023-09-13 12:10:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">TEC along a vertical path from ground</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/TotalElectronContent"/>
@@ -1591,11 +1591,11 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/TotalElectronContent_Vertical_Ionosphere">
-                <skos:prefLabel xml:lang="en">Total Vertical Electron Content</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Total Vertical Electron Content of Ionosphere (iTEC)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">I</skos:altLabel>
-                <dc:date>2013-06-01 21:30:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">TEC along a vertical path from ground</skos:definition>
+                <dc:date>2023-09-13 12:10:00.0</dc:date>
+                <owlxml:versionInfo>0.2</owlxml:versionInfo>
+                <skos:definition xml:lang="en">TEC along a vertical path from ground up to the ionosphere's upper bound</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/TotalElectronContent_Vertical"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/ColumnarContent"/>
@@ -2115,7 +2115,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency_F2-Layer">
-                <skos:prefLabel xml:lang="en">F2-layer Critical Frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">F2-layer Critical Frequency (foF2)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">foF2</skos:altLabel>
                 <skos:definition xml:lang="en">The ordinary wave critical frequency of the highest stratification in the F2 layer of ionosphere</skos:definition>
                 <dc:date>2015-04-14 15:07:00.0</dc:date>
@@ -2130,7 +2130,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency_F2-Layer_X-Mode">
-                <skos:prefLabel xml:lang="en">F2-layer X-Mode Critical Frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">F2-layer X-Mode Critical Frequency (fxF2)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fxF2</skos:altLabel>
                 <skos:definition xml:lang="en">The extraordinary wave critical frequency of the highest stratification in the F2 layer of ionosphere</skos:definition>
                 <dc:date>2015-04-14 15:07:00.0</dc:date>
@@ -2145,7 +2145,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency_F2-Layer_Z-Mode">
-                <skos:prefLabel xml:lang="en">F2-layer Z-Mode Critical Frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">F2-layer Z-Mode Critical Frequency (fzF2)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fzF2</skos:altLabel>
                 <skos:definition xml:lang="en">The Z-Mode wave critical frequency of the highest stratification in the F2 layer of ionosphere</skos:definition>
                 <dc:date>2015-04-14 15:07:00.0</dc:date>
@@ -2160,7 +2160,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency_F1-Layer">
-                <skos:prefLabel xml:lang="en">F1-layer Critical Frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">F1-layer Critical Frequency (foF1)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">foF1</skos:altLabel>
                 <skos:definition xml:lang="en">The ordinary wave critical frequency of F1 layer</skos:definition>
                 <dc:date>2015-04-14 15:02:00.0</dc:date>
@@ -2175,7 +2175,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency_F1-Layer_X-Mode">
-                <skos:prefLabel xml:lang="en">F1-layer X-Mode Critical Frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">F1-layer X-Mode Critical Frequency (fxF1)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fxF1</skos:altLabel>
                 <skos:definition xml:lang="en">The extraordinary wave critical frequency of F1 layer</skos:definition>
                 <dc:date>2015-04-14 15:06:00.0</dc:date>
@@ -2190,7 +2190,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency_E-Layer">
-                <skos:prefLabel xml:lang="en">E-layer Critical Frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">E-layer Critical Frequency (foE)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">foE</skos:altLabel>
                 <skos:definition xml:lang="en">The ordinary wave critical frequency of the lowest thick layer stratification in the E region of ionosphere that causes a discontinuity in the height of E trace</skos:definition>
                 <dc:date>2015-04-14 15:01:00.0</dc:date>
@@ -2205,7 +2205,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency_E2-Layer">
-                <skos:prefLabel xml:lang="en">E2-layer Critical Frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">E2-layer Critical Frequency (foE2)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">foE2</skos:altLabel>
                 <skos:definition xml:lang="en">The ordinary wave critical frequency of an acculting thick layer appearing between the normal E and F1 layers</skos:definition>
                 <dc:date>2015-04-13 21:52:00.0</dc:date>
@@ -2220,7 +2220,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency_AuroralE-Layer">
-                <skos:prefLabel xml:lang="en">Auroral (particle) E-layer Critical Frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Auroral (particle) E-layer Critical Frequency (foEa)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">foEa</skos:altLabel>
                 <skos:definition xml:lang="en">The ordinary wave critical frequency of the thick layer of additional ionization in the auroral E region caused by precipitating particles of magnetospheric origin</skos:definition>
                 <dc:date>2015-04-13 21:52:00.0</dc:date>
@@ -2235,7 +2235,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency_SporadicE-Layer">
-                <skos:prefLabel xml:lang="en">Es-layer Critical Frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Es-layer Critical Frequency (foEs)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">foEs</skos:altLabel>
                 <skos:definition xml:lang="en">The highest ordinary wave frequency at which a mainly continuous Es trace is observed</skos:definition>
                 <dc:date>2015-04-13 21:54:00.0</dc:date>
@@ -2250,7 +2250,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency_SporadicE-Layer_X-Mode">
-                <skos:prefLabel xml:lang="en">F1.5-layer Critical Frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Es-layer X-wave Critical Frequency (fxEs)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">foF1.5</skos:altLabel>
                 <skos:definition xml:lang="en">The ordinary wave critical frequency of the intermediate stratification between the normal F1 and F2 layers</skos:definition>
                 <dc:date>2015-04-13 21:54:00.0</dc:date>
@@ -2265,7 +2265,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/CriticalFrequency_F1.5-Layer">
-                <skos:prefLabel xml:lang="en">F1.5-layer Critical Frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">F1.5-layer Critical Frequency (foF1.5)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">foF1.5</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2279,7 +2279,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MinimumVirtualHeight">
-                <skos:prefLabel xml:lang="en">Minimum Virtual Height of plasma layer</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Minimum Virtual Height of plasma layer (h')</skos:prefLabel>
                 <skos:altLabel xml:lang="en">h'</skos:altLabel>
                 <skos:definition xml:lang="en">The minimum virtual height of the O-Mode trace of reflections from a plasma layer</skos:definition>
                 <dc:date>2015-04-30 16:14:00.0</dc:date>
@@ -2304,7 +2304,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MinimumVirtualHeight_F2-Layer">
-                <skos:prefLabel xml:lang="en">Minimum Virtual Height of F2 layer</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Minimum Virtual Height of F2 layer (h'F2)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">h'F2</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2318,7 +2318,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MinimumVirtualHeight_F1-Layer">
-                <skos:prefLabel xml:lang="en">Minimum Virtual Height of F1 layer</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Minimum Virtual Height of F1 layer (h'F1)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">h'F1</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2332,7 +2332,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MinimumVirtualHeight_F-Region">
-                <skos:prefLabel xml:lang="en">Minimum Virtual Height of plasma layers in F region</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Minimum Virtual Height of plasma layers in F region (h'F)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">h'F</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2346,7 +2346,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MinimumVirtualHeight_E-Layer">
-                <skos:prefLabel xml:lang="en">Minimum Virtual Height of E layer</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Minimum Virtual Height of E layer (h'E)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">h'E</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2360,7 +2360,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MinimumVirtualHeight_E2-Layer">
-                <skos:prefLabel xml:lang="en">Minimum Virtual Height of E2 layer</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Minimum Virtual Height of E2 layer (h'E2)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">h'E2</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2374,7 +2374,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MinimumVirtualHeight_AuroralE-Layer">
-                <skos:prefLabel xml:lang="en">Minimum Virtual Height of Ea layer</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Minimum Virtual Height of Ea layer (h'Ea)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">h'Ea</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2388,7 +2388,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MinimumVirtualHeight_SporadicE-Layer">
-                <skos:prefLabel xml:lang="en">Minimum Virtual Height of Es layer</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Minimum Virtual Height of Es layer (h'Es)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">h'Es</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2402,7 +2402,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MinimumVirtualHeight_foP">
-                <skos:prefLabel xml:lang="en">Minimum Virtual Height of foP</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Minimum Virtual Height of F-region patch layer (h'P)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">h'P</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2416,7 +2416,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MinimumVirtualHeight_F1.5-Layer">
-                <skos:prefLabel xml:lang="en">Minimum Virtual Height of F1.5 layer</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Minimum Virtual Height of F1.5 layer (h'F1.5)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">h'F1.5</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2430,8 +2430,8 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MinimumVirtualHeight_SpreadF">
-                <skos:prefLabel xml:lang="en">Minimum Spread-F Slant Virtual Height</skos:prefLabel>
-                <skos:altLabel xml:lang="en">h'l</skos:altLabel>
+                <skos:prefLabel xml:lang="en">Minimum Spread-F Slant Virtual Height (h'I)</skos:prefLabel>
+                <skos:altLabel xml:lang="en">h'I</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">The minimum non-vertical (slant) virtual range of the spread F traces</skos:definition>
@@ -2444,7 +2444,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MinimumEchoFrequency">
-                <skos:prefLabel xml:lang="en">Minimum Frequency of Signal Reflections from Plasma Layer</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Minimum Frequency of Signal Reflections from Plasma Layer (fmin)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fmin</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2460,7 +2460,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MinimumFrequency_FirstHop_AllLayers">
-                <skos:prefLabel xml:lang="en">Minimum frequency of Reflections from Plasma Layer</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Minimum frequency of Reflections from Plasma Layer (fmin)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fmin</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2478,7 +2478,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MinimumFrequency_SecondHop_AllLayers">
-                <skos:prefLabel xml:lang="en">Minimum frequency of 2-hop echoes</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Minimum frequency of 2-hop echoes (fm2)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fm2</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2493,7 +2493,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MinimumFrequency_ThirdHop_AllLayers">
-                <skos:prefLabel xml:lang="en">Minimum frequency of 3-hop echoes</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Minimum frequency of 3-hop echoes (fm3)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fm3</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2508,7 +2508,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MinimumFrequency_F-Region">
-                <skos:prefLabel xml:lang="en">Minimum frequency of ionospheric reflections in F region</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Minimum frequency of ionospheric reflections in F region (fminF)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fminF</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2522,7 +2522,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MinimumFrequency_E-Region">
-                <skos:prefLabel xml:lang="en">Minimum frequency of ionospheric reflections in E region</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Minimum frequency of ionospheric reflections in E region (fminE)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fminE</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2536,7 +2536,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MinimumFrequency_SporadicE-Layer">
-                <skos:prefLabel xml:lang="en">Minimum frequency of ionospheric reflections in Es layer</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Minimum frequency of ionospheric reflections in Es layer (fminEs)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fminEs</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2550,7 +2550,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MinimumFrequency_SpreadF">
-                <skos:prefLabel xml:lang="en">Lowest frequency of Spread F echoes</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Lowest frequency of Spread F echoes (fmI)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fml</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2564,7 +2564,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/TopEchoFrequency">
-                <skos:prefLabel xml:lang="en">Top Frequency of Signal Reflections from Plasma Layer</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Top Frequency of Signal Reflections from Plasma Layer (ft)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">ft</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2578,7 +2578,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/TopFrequency_O-Mode">
-                <skos:prefLabel xml:lang="en">Top Frequency of O-Mode Reflections</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Top Frequency of O-Mode Reflections (fto)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fto</skos:altLabel>
                 <skos:definition xml:lang="en">The top ordinary wave frequency at which reflections are observed in a plasma layer</skos:definition>
                 <dc:date>2015-04-13 22:05:00.0</dc:date>
@@ -2595,7 +2595,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/TopFrequency_SporadicE-Layer">
-                <skos:prefLabel xml:lang="en">Es-layer Top Frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Es-layer Top Frequency (ftEs)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">ftEs</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2608,7 +2608,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/TopFrequency_F2-Layer">
-                <skos:prefLabel xml:lang="en">F2-layer Top Frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">F2-layer Top Frequency (foI)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">foI</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2622,7 +2622,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/TopFrequency_PatchF2-Layer">
-                <skos:prefLabel xml:lang="en">Patch F2-layer Top Frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Patch F2-layer Top Frequency (foP)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">foP</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2635,7 +2635,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/TopFrequency_X-Mode">
-                <skos:prefLabel xml:lang="en">Top Frequency of X-Mode Reflections</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Top Frequency of X-Mode Reflections (ftx)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">ftx</skos:altLabel>
                 <skos:definition xml:lang="en">The top extraordinary wave frequency at which reflections are observed in a plasma layer</skos:definition>
                 <dc:date>2015-04-13 22:06:00.0</dc:date>
@@ -2650,7 +2650,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/TopFrequency_F2-Layer_X-Mode">
-                <skos:prefLabel xml:lang="en">F2-layer X-Mode Top Frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">F2-layer X-Mode Top Frequency (fxI)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fxI</skos:altLabel>
                 <skos:definition xml:lang="en">The top extraordinary wave frequency of the spread F traces</skos:definition>
                 <dc:date>2015-04-13 22:05:00.0</dc:date>
@@ -2665,7 +2665,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/RangeSpread">
-                <skos:prefLabel xml:lang="en">Range Spread of Echo trace</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Range Spread of Echo trace (Q)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">Q</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2682,7 +2682,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/RangeSpread_SpreadF">
-                <skos:prefLabel xml:lang="en">Range Spread of F layer trace</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Range Spread of F layer trace (QF)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">QF</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2698,7 +2698,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/RangeSpread_SpreadE">
-                <skos:prefLabel xml:lang="en">Range Spread of E layer trace</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Range Spread of E layer trace (QE)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">QE</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2714,7 +2714,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/FrequencySpread">
-                <skos:prefLabel xml:lang="en">Frequency Spread of Echo Trace</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Frequency Spread of Echo Trace (F)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">F</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2730,7 +2730,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/FrequencySpread_SpreadF">
-                <skos:prefLabel xml:lang="en">Frequency Spread of F layer trace</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Frequency Spread of F layer trace (FF)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">FF</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2746,7 +2746,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/FrequencySpread_SpreadE">
-                <skos:prefLabel xml:lang="en">Frequency Spread of E layer trace</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Frequency Spread of E layer trace (FE)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">FE</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2761,7 +2761,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/FrequencySpreadTotal_Spread-F">
-                <skos:prefLabel xml:lang="en">Frequency spread</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Frequency spread (dfS)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">dfS</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2775,7 +2775,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency">
-                <skos:prefLabel xml:lang="en">Standard Maximum Usable Frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Standard Maximum Usable Frequency (MUF)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">MUF</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2790,7 +2790,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_3000km">
-                <skos:prefLabel xml:lang="en">Standard MUF at 3000 km ground distance</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Standard MUF at 3000 km ground distance (MUF(3000))</skos:prefLabel>
                 <skos:altLabel xml:lang="en">MUF(3000)</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2807,7 +2807,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_3000km_F2-Layer">
-                <skos:prefLabel xml:lang="en">F2-layer Standard MUF at 3000 km</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">F2-layer Standard MUF at 3000 km (MUF(3000)F2)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">MUF(3000)F2</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2823,7 +2823,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_3000km_F1-Layer">
-                <skos:prefLabel xml:lang="en">F1-layer Standard MUF at 3000 km</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">F1-layer Standard MUF at 3000 km (MUF(3000)F1)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">MUF(3000)F1</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2839,7 +2839,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_D">
-                <skos:prefLabel xml:lang="en">Standard MUF at D km ground distance</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Standard MUF at D km ground distance (MUF(D))</skos:prefLabel>
                 <skos:altLabel xml:lang="en">MUF(D)</skos:altLabel>
                 <dc:date>2022-10-19 16:50:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2857,7 +2857,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_D_F2-Layer">
-                <skos:prefLabel xml:lang="en">F2-layer MUF over D km ground distance</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">F2-layer MUF over D km ground distance (MUF(D)F2)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">MUF(D)F2</skos:altLabel>
                 <dc:date>2022-10-24 22:10:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2873,7 +2873,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_D_F1-Layer">
-                <skos:prefLabel xml:lang="en">F1-layer MUF over D km ground distance</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">F1-layer MUF over D km ground distance (MUF(D)F1)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">MUF(D)F1</skos:altLabel>
                 <dc:date>2022-10-24 22:10:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2889,7 +2889,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MaximumUsableFrequency_D_E-Layer">
-                <skos:prefLabel xml:lang="en">E-layer MUF over D km ground distance</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">E-layer MUF over D km ground distance (MUF(D)E)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">MUF(D)E</skos:altLabel>
                 <dc:date>2022-10-24 22:10:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2905,7 +2905,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/M-Factor">
-                <skos:prefLabel xml:lang="en">Standard M-Factor Ratio</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Standard M-Factor Ratio (M)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">M</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2921,7 +2921,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/M_3000km">
-                <skos:prefLabel xml:lang="en">M-Factor at 3000 km</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">M-Factor at 3000 km (M(3000))</skos:prefLabel>
                 <skos:altLabel xml:lang="en">M(3000)</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2940,7 +2940,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/M_3000km_F2-Layer">
-                <skos:prefLabel xml:lang="en">M-Factor of F2-layer at 3000 km</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">M-Factor of F2-layer at 3000 km (M(3000)F2)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">M(3000)F2</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2956,7 +2956,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/M_3000km_F1-Layer">
-                <skos:prefLabel xml:lang="en">M-Factor of F1-layer at 3000 km</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">M-Factor of F1-layer at 3000 km (M(3000)F1)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">M(3000)F1</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2972,7 +2972,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/M_3000km_SpreadF">
-                <skos:prefLabel xml:lang="en">Spread-F M-Factor at 3000 km</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Spread-F M-Factor at 3000 km (M(3000)I)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">M(3000)I</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -2990,7 +2990,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/VirtualHeightAtGivenFrequency">
-                <skos:prefLabel xml:lang="en">Virtual Height of a trace at given frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Virtual Height of a trace at given frequency (h')</skos:prefLabel>
                 <skos:altLabel xml:lang="en">h'</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -3003,7 +3003,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/VirtualHeightAtGivenFrequency_X-Mode">
-                <skos:prefLabel xml:lang="en">Virtual Height of an extraordinary wave trace at given frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Virtual Height of an extraordinary wave trace at given frequency (h'x)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">h'x</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -3017,7 +3017,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/VirtualHeightAtfoF2_X-Mode">
-                <skos:prefLabel xml:lang="en">Virtual Height of X trace at foF2</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Virtual Height of X trace at foF2 (h'Ox)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">h'Ox</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -3030,7 +3030,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/BlanketingFrequency">
-                <skos:prefLabel xml:lang="en">Blanketing Frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Blanketing Frequency (fb)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fb</skos:altLabel>
                 <skos:definition xml:lang="en">The lowest ordinary wave frequency at which a layer becomes transparent</skos:definition>
                 <dc:date>2014-04-10 15:21:00.0</dc:date>
@@ -3042,7 +3042,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/BlanketingFrequency_SporadicE-Layer">
-                <skos:prefLabel xml:lang="en">Es-layer Blanketing Frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Es-layer Blanketing Frequency (fbEs)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fbEs</skos:altLabel>
                 <dc:date>2013-06-10 12:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -3098,7 +3098,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/CyclotronFrequency">
-                <skos:prefLabel xml:lang="en">Cyclotron Frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Cyclotron Frequency (fce)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fce</skos:altLabel>
                 <skos:definition xml:lang="en">The resonance frequency of electron cyclotron oscillations</skos:definition>
                 <dc:date>2015-04-13 21:59:00.0</dc:date>
@@ -3112,7 +3112,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/CyclotronFrequencyHarmonics">
-                <skos:prefLabel xml:lang="en">Cyclotron Frequency Harmonics</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Cyclotron Frequency Harmonics (nfce)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">nfce</skos:altLabel>
                 <skos:definition xml:lang="en">Harmonics of the electron cyclotron frequency</skos:definition>
                 <dc:date>2015-04-13 21:59:00.0</dc:date>
@@ -3127,7 +3127,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/UpperHybridFrequency">
-                <skos:prefLabel xml:lang="en">Upper-Hybrid Frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Upper-Hybrid Frequency (fuh)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fuh</skos:altLabel>
                 <skos:definition xml:lang="en">The resonance frequency of the electron upper hybrid oscillations</skos:definition>
                 <dc:date>2015-04-13 22:06:00.0</dc:date>
@@ -3141,7 +3141,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/ElectronBernsteinFrequencyHarmonics">
-                <skos:prefLabel xml:lang="en">Electron Bernstein Frequency Harmonics</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Electron Bernstein Frequency Harmonics (fQn)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fQn</skos:altLabel>
                 <skos:definition xml:lang="en">The resonance frequency of the electron Bernstein mode oscillations</skos:definition>
                 <dc:date>2015-04-13 22:02:00.0</dc:date>
@@ -3169,7 +3169,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/IonCyclotronFrequency">
-                <skos:prefLabel xml:lang="en">Ion Cyclotron Frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Ion Cyclotron Frequency (fci)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fci</skos:altLabel>
                 <skos:definition xml:lang="en">The resonance frequency of the ion cyclotron oscillations</skos:definition>
                 <dc:date>2015-04-13 22:03:00.0</dc:date>
@@ -3196,7 +3196,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/CutoffFrequency_Z-Mode">
-                <skos:prefLabel xml:lang="en">Z-Mode Cutoff Frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Z-Mode Cutoff Frequency (fz)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fz</skos:altLabel>
                 <skos:definition xml:lang="en">The Z-Mode cutoff frequency</skos:definition>
                 <dc:date>2015-04-13 21:58:00.0</dc:date>
@@ -3209,7 +3209,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/CutoffFrequency_X-Mode">
-                <skos:prefLabel xml:lang="en">X-Mode Cutoff Frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">X-Mode Cutoff Frequency (fx)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fx</skos:altLabel>
                 <skos:definition xml:lang="en">The X-Mode cutoff frequency at the spacecraft location</skos:definition>
                 <dc:date>2015-04-13 21:58:00.0</dc:date>
@@ -3222,7 +3222,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/CutoffFrequency_O-Mode">
-                <skos:prefLabel xml:lang="en">O-Mode Cutoff Frequency</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">O-Mode Cutoff Frequency (fo)</skos:prefLabel>
                 <skos:altLabel xml:lang="en">fo</skos:altLabel>
                 <skos:definition xml:lang="en">The O-Mode cutoff frequency at the spacecraft location</skos:definition>
                 <dc:date>2015-04-13 21:58:00.0</dc:date>
