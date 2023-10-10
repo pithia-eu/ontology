@@ -390,6 +390,10 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/IonogramScaling">
                 <skos:prefLabel xml:lang="en">Ionogram Scaling Techniques</skos:prefLabel>
+                <skos:definition xml:lang="en">
+                    Interpretation of the signal signatures in ionogram images to extract 
+                    secondary (actionable) information about properties of the ionosphere
+                </skos:definition>
                 <dc:date>2013-05-31 15:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en"></skos:definition>
@@ -401,6 +405,9 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/IonogramScaling_Automatic">
                 <skos:prefLabel xml:lang="en">Automatically Scaled Ionogram</skos:prefLabel>
+                <skos:definition xml:lang="en">
+                    Automatic recognition of ionogram signatures to extract secondary (actionable) information about the ionosphere
+                </skos:definition>
                 <dc:date>2013-05-31 15:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en"></skos:definition>
@@ -410,6 +417,9 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/IonogramScaling_Manual">
                 <skos:prefLabel xml:lang="en">Manually Scaled Ionogram</skos:prefLabel>
+                <skos:definition xml:lang="en">
+                    Manual interpretation of ionogram images, usually performed as correction/editing of the autoscaling results
+                </skos:definition>
                 <dc:date>2013-05-31 15:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en"></skos:definition>
@@ -510,7 +520,7 @@
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/Calibration">
                 <skos:prefLabel xml:lang="en">Calibration</skos:prefLabel>
                 <skos:definition xml:lang="en">
-                    COnversion of the count units as sampled by the instrument to physical units
+                    Conversion of the count units as sampled by the instrument to physical units
                 </skos:definition>
                 <dc:date>2023-10-10 07:05:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
