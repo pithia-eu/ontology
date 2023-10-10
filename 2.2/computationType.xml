@@ -48,6 +48,7 @@
                 <skos:definition xml:lang="en">Activity indicator pertaining to events on the Sun.</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SolarActivityIndicator"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SunspotNumber_2.0"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/F10.7"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -168,7 +169,6 @@
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ActivityIndicator"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Global"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Local"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Regional"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -183,8 +183,6 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Hp60_index"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Ap_index"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ap_index"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ap30_index"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ap60_index"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -234,24 +232,6 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/ap30_index">
-                <skos:prefLabel xml:lang="en">ap30 Index (Linear representation of Hp30)</skos:prefLabel>
-                <dc:date>2023-05-29 19:55:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">Linear representation of the quasi-logarithmic Kp30 index.</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Global"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/ap60_index">
-                <skos:prefLabel xml:lang="en">ap60 Index (Linear representation of Hp60)</skos:prefLabel>
-                <dc:date>2023-05-29 19:55:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">Linear representation of the quasi-logarithmic Kp60 index.</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Global"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Local">
                 <skos:prefLabel xml:lang="en">Local Geomagnetic Activity Indicator</skos:prefLabel>
                 <dc:date>2023-04-13 19:55:00.0</dc:date>
@@ -278,35 +258,6 @@
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Three-hourly linear representation geomagnetic disturbance indicator provided by individual stations.</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Local"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Regional">
-                <skos:prefLabel xml:lang="en">Regional Geomagnetic Activity Indicator</skos:prefLabel>
-                <dc:date>2023-09-13 16:55:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">Activity indicator pertaining to regionally observed disturbances in the geomagnetic field.</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/PCN_index"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Dst_index"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/PCN_index">
-                <skos:prefLabel xml:lang="en">PCN Index, 1-minute Polar Cap Geomagnetic Activity</skos:prefLabel>
-                <dc:date>2023-09-13 16:55:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">The PCN index monitors geomagnetic activity on the Northern Polar Cap.</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Regional"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/Dst_index">
-                <skos:prefLabel xml:lang="en">Dst Index, 60-minute Low Latitude Geomagnetic Activity</skos:prefLabel>
-                <dc:date>2023-09-13 16:55:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">The Dst index monitors geomagnetic activity using selected four low-latitude stations.</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Regional"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -433,6 +384,7 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SpectrogramScaling"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/DataConditioning"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GNSS-SignalProcessing"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Calibration"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -550,6 +502,17 @@
                     A class of signal processing techniques specific to GNSS (both ground and spaceborn reception)
                 </skos:definition>
                 <dc:date>2022-12-01 09:48:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MeasurementProcessing"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/Calibration">
+                <skos:prefLabel xml:lang="en">Calibration</skos:prefLabel>
+                <skos:definition xml:lang="en">
+                    COnversion of the count units as sampled by the instrument to physical units
+                </skos:definition>
+                <dc:date>2023-10-10 07:05:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MeasurementProcessing"/>
             </skos:Concept>
