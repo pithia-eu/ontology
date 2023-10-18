@@ -385,6 +385,7 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/DataConditioning"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GNSS-SignalProcessing"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Calibration"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/StatisticalReasoning"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -523,6 +524,17 @@
                     Conversion of the count units as sampled by the instrument to physical units
                 </skos:definition>
                 <dc:date>2023-10-10 07:05:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MeasurementProcessing"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/StatisticalReasoning">
+                <skos:prefLabel xml:lang="en">Statistical Reasoning</skos:prefLabel>
+                <skos:definition xml:lang="en">
+                    A variety of statistical computations to reason about the measurement properties, such as averaging and variance evaluation.
+                </skos:definition>
+                <dc:date>2023-10-18 11:22:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MeasurementProcessing"/>
             </skos:Concept>
