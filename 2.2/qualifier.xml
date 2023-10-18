@@ -200,6 +200,14 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/qualifier/Normalized">
+                <skos:prefLabel xml:lang="en">Normalized</skos:prefLabel>
+                <dc:date>2023-10-18 11:10:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Multiplied by a scaling factor to bring to a unified scale</skos:definition>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/qualifier/Scalar">
                 <skos:prefLabel xml:lang="en">Scalar</skos:prefLabel>
                 <dc:date>2013-05-31 21:30:00.0</dc:date>
