@@ -586,7 +586,8 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaBoundaryPosition"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaLayerType"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/ProfileShapeParameter"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/TotalElectronContent"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/DensityOverVTEC"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/NumberDensity"/>
             </skos:Concept>
@@ -1557,6 +1558,18 @@
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/ElectronDensity"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/ColumnarContent"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/DensityOverVTEC">
+                <skos:prefLabel xml:lang="en">Ratio of Electron Density over Vertical TEC</skos:prefLabel>
+                <skos:altLabel xml:lang="en">TEC</skos:altLabel>
+                <skos:definition xml:lang="en">Ratio of Electron Density over Vertical TEC</skos:definition>
+                <dc:date>2023-12-07 09:04:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/ElectronDensity"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/DensityToContentRatio"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
