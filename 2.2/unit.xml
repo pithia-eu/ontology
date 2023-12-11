@@ -62,6 +62,15 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/unit/m-1">
+                <skos:prefLabel xml:lang="en">per meter</skos:prefLabel>
+                <skos:altLabel xml:lang="en">m-1</skos:altLabel>
+                <dc:date>2023-12-07 15:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en"></skos:definition>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/unit/TECu">
                 <skos:prefLabel xml:lang="en">TEC unit</skos:prefLabel>
                 <skos:altLabel xml:lang="en">TECu</skos:altLabel>
