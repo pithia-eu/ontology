@@ -107,6 +107,14 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/unit/m-2s-2">
+                <skos:prefLabel xml:lang="en">counts/m2 per s2</skos:prefLabel>
+                <dc:date>2023-12-11 09:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Used for rate (s-1) of photon irradiance (s-1), thus s-2</skos:definition>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/unit/nT">
                 <skos:prefLabel xml:lang="en">nanoTesla</skos:prefLabel>
                 <skos:altLabel xml:lang="en">nT</skos:altLabel>
