@@ -240,6 +240,7 @@
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/a_indices"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/K_indices"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/PC_indices"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -258,6 +259,38 @@
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Three-hourly linear representation geomagnetic disturbance indicator provided by individual stations.</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Local"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/PC_indices">
+                <skos:prefLabel xml:lang="en">PC indices</skos:prefLabel>
+                <dc:date>2024-02-27 08:18:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">
+                       Polar cap indices of geomagnetic disturbances due to transpolar convection of plasma 
+                       that are representative of the energy input from the solar wind.
+                </skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Local"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/PCN_index"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/PCS_index"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/PCN_indiex">
+                <skos:prefLabel xml:lang="en">PCN index</skos:prefLabel>
+                <dc:date>2024-02-27 08:18:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Northern Polar Cap index of geomagnetic disturbances from Qaanaaq observatory.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/PC_indices"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/PCS_indiex">
+                <skos:prefLabel xml:lang="en">PCS index</skos:prefLabel>
+                <dc:date>2024-02-27 08:18:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Southern Polar Cap index of geomagnetic disturbances from Vostok observatory.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/PC_indices"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
