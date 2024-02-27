@@ -276,7 +276,7 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/PCN_indiex">
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/PCN_index">
                 <skos:prefLabel xml:lang="en">PCN index</skos:prefLabel>
                 <dc:date>2024-02-27 08:18:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -285,7 +285,7 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/PCS_indiex">
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/PCS_index">
                 <skos:prefLabel xml:lang="en">PCS index</skos:prefLabel>
                 <dc:date>2024-02-27 08:18:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
