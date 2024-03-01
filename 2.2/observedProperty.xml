@@ -1037,6 +1037,7 @@
                 <dc:date>2015-09-02 14:49:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmapausePosition"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/MagnetopausePosition"/>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/Position"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/BoundaryPosition"/>
@@ -3555,9 +3556,22 @@
                 <dc:date>2015-09-02 14:49:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaBoundaryPosition"/>
-                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ChargedParticle"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Position"/>
                 <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Plasmasphere"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/MagnetopausePosition">
+                <skos:prefLabel xml:lang="en">Magnetopause Position</skos:prefLabel>
+                <skos:altLabel xml:lang="en">DSO</skos:altLabel>
+                <skos:definition xml:lang="en">Position of the Earth magnetopause in space</skos:definition>
+                <dc:date>2024-03-01 14:49:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaBoundaryPosition"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ChargedParticle"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/Position"/>
+                <pithia:featureOfInterest rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Magnetopause"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
