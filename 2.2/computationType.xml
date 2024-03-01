@@ -183,6 +183,8 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Hp60_index"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Ap_index"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ap_index"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Dst_index"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/DSO_index"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -192,7 +194,6 @@
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Three-hourly sub-auroral geomagnetic activity indicator provided by GFZ Potsdam, Germany.</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Global"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Kp_index"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -228,6 +229,42 @@
                 <dc:date>2023-04-13 19:55:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Daily mean of ap sub-auroral geomagnetic activity indicators.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Global"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/Dst_index">
+                <skos:prefLabel xml:lang="en">Dst Index, 1-hour computation</skos:prefLabel>
+                <dc:date>2023-04-13 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">
+The Dst or disturbance storm time index is a measure of geomagnetic activity used to assess 
+the severity of magnetic storms. It is expressed in nanoteslas (nT) and is based on the average value of the 
+horizontal component of the Earth's magnetic field measured hourly at four near-equatorial geomagnetic 
+observatories. Use of the Dst as an index of storm strength is possible because the strength of the surface 
+magnetic field at low latitudes is inversely proportional to the energy content of the ring current, which 
+increases during geomagnetic storms. In the case of a classic magnetic storm, the Dst shows a sudden rise, 
+corresponding to the storm sudden commencement, and then decreases sharply as the ring current intensifies. 
+Once the IMF turns northward again and the ring current begins to recover, the Dst begins a slow rise back 
+to its quiet time level. The relationship of inverse proportionality between the horizontal component of 
+the magnetic field and the energy content of the ring current is known as the Dessler-Parker-Sckopke relation. 
+Other currents contribute to the Dst as well, most importantly the magnetopause current. The Dst index is 
+corrected to remove the contribution of this current as well as that of the quiet-time ring current.
+                </skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Global"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/DSO_index">
+                <skos:prefLabel xml:lang="en">DSO Index, 3-hourly computation</skos:prefLabel>
+                <dc:date>2023-04-13 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">
+DSO (Magnetopause Stand-off Distance) index describes location of the magnetopause, the boundary between the 
+magnetic field of the planet and the solar wind. The location of the magnetopause is determined by the balance 
+between the pressure of the planetary magnetic field and the dynamic pressure of the solar wind and is given 
+as the DSO index.
+                </skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Global"/>
             </skos:Concept>
         </skos:member>
