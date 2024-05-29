@@ -338,7 +338,7 @@ as the DSO index.
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/TheoreticalModel"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/NumericalModel"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/DataDrivenModel"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Mixed"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MixedModel"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -355,7 +355,7 @@ as the DSO index.
                 <skos:prefLabel xml:lang="en">Numerical Model</skos:prefLabel>
                 <dc:date>2024-05-29 15:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">A family of models that employ numerical computations to describe physical systems, usually based on approximations rather than direct theoretical solutions</skos:definition>
+                <skos:definition xml:lang="en">A family of models that employ numerical computations to describe physical systems, usually based on approximations rather than direct theoretical solutions or reasoning</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Model"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SimulationModel"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MathematicalModel"/>
@@ -642,14 +642,6 @@ as the DSO index.
                 <dc:date>2013-12-05 15:21:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/PlasmagramScaling"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/SemiTheoreticalModel">
-                <skos:prefLabel xml:lang="en">Semi Theoretical</skos:prefLabel>
-                <dc:date>2014-05-04 14:31:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Model"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
