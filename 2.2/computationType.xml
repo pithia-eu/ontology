@@ -336,11 +336,9 @@ as the DSO index.
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en"></skos:definition>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/TheoreticalModel"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/EmpiricalModel"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/AssimilativeModel"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MathematicalModel"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SemiEmpiricalModel"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SemiTheoreticalModel"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/NumericalModel"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/DataDrivenModel"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Mixed"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -353,30 +351,32 @@ as the DSO index.
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/EmpiricalModel">
-                <skos:prefLabel xml:lang="en">Empirical Model</skos:prefLabel>
-                <dc:date>2013-05-31 15:30:00.0</dc:date>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/NumericalModel">
+                <skos:prefLabel xml:lang="en">Numerical Model</skos:prefLabel>
+                <dc:date>2024-05-29 15:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en"></skos:definition>
+                <skos:definition xml:lang="en">A family of models that employ numerical computations to describe physical systems, usually based on approximations rather than direct theoretical solutions</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Model"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SimulationModel"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MathematicalModel"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/AssimilativeModel">
-                <skos:prefLabel xml:lang="en">Assimilative Model</skos:prefLabel>
-                <dc:date>2013-05-31 15:30:00.0</dc:date>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/SimulationModel">
+                <skos:prefLabel xml:lang="en">Simulation Model</skos:prefLabel>
+                <dc:date>2024-05-29 15:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en"></skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Model"/>
+                <skos:definition xml:lang="en">Computer techniques to reason about physical systems based on prediction of their behavioral scenarios from an approximate system description</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/NumericalModel"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/MathematicalModel">
-                <skos:prefLabel xml:lang="en">Mathematic Model</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Mathematical Model</skos:prefLabel>
                 <dc:date>2013-05-31 15:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Model computation based on purely mathematical considerations. Compare to theoretical model based on first-principle physics approach.</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Model"/>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/NumericalModel"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Fitting"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Geometry"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Tomography"/>
@@ -431,12 +431,131 @@ as the DSO index.
             </skos:Concept>
         </skos:member>
         <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/DataDrivenModel">
+                <skos:prefLabel xml:lang="en">Data-Driven Model</skos:prefLabel>
+                <dc:date>2024-05-29 15:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Model based on analyses of available observational data</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Model"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/StatisticalModel"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MachineLearning"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/StatisticalModel">
+                <skos:prefLabel xml:lang="en">Statistical Model</skos:prefLabel>
+                <dc:date>2024-05-29 15:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Estimation of the physical system behavior based on its statistical sample</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/DataDrivenModel"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/EmpiricalModel"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ProbabilisticModel"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/EmpiricalModel">
+                <skos:prefLabel xml:lang="en">Empirical Model</skos:prefLabel>
+                <dc:date>2013-05-31 15:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">A subclass of statistical models that represents an observed empirical observation of the system behavior</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/DataDrivenModel"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/ProbabilisticModel">
+                <skos:prefLabel xml:lang="en">Probabilistic Model</skos:prefLabel>
+                <dc:date>2024-05-29 15:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">A subclass of statistical models that assesses probabilities of the system behavioral scenarios</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/StatisticalModel"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/MachineLearning">
+                <skos:prefLabel xml:lang="en">Machine Learning</skos:prefLabel>
+                <dc:date>2024-05-29 15:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Estimation of the physical system behavior based on AI-based learning of the system's essence from previous observations</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/DataDrivenModel"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/NeuralNetworks"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/DecisionTree"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/LinearRegression"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Clustering"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/NeuralNetworks">
+                <skos:prefLabel xml:lang="en">Neural Networks</skos:prefLabel>
+                <dc:date>2024-05-29 15:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Machine learning models based on the neuron doctrine to mimic complex system behavior using collective interaction of interconnected elemental multiple-input-single-output units</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MachineLearning"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/DeepLearning"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/DeepLearning">
+                <skos:prefLabel xml:lang="en">Deep Learning</skos:prefLabel>
+                <dc:date>2024-05-29 15:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Machine learning models based on neural networks of particular multi-level hierarchy to detect and represent system's essence with an increasing top-down learned detail of its abstraction</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/NeuralNetworks"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/DecisionTree">
+                <skos:prefLabel xml:lang="en">Decision Tree</skos:prefLabel>
+                <dc:date>2024-05-29 15:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">A hierarchical tree-like model that represents different possible scenarios of the system behavior as determined by its the control parameters</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MachineLearning"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/LinearRegression">
+                <skos:prefLabel xml:lang="en">Linear Regression</skos:prefLabel>
+                <dc:date>2024-05-29 15:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">A modelling principle that establishes linear dependences of the dependent output variables on the independent input variables</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MachineLearning"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/Clusterization">
+                <skos:prefLabel xml:lang="en">Clusterization</skos:prefLabel>
+                <dc:date>2024-05-29 15:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">A family of algorithms that detect groupings in the set of objects by their similarity</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MachineLearning"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/MixedModel">
+                <skos:prefLabel xml:lang="en">Mixed Model</skos:prefLabel>
+                <dc:date>2024-05-29 15:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Models that combine various types of modelling approaches</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Model"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/AssimilativeModel"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SemiEmpiricalModel"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/AssimilativeModel">
+                <skos:prefLabel xml:lang="en">Assimilative Model</skos:prefLabel>
+                <dc:date>2013-05-31 15:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Model that can transform the underlying theoretical, numerical, or data-driven for a better match with observational data, often in real-time</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MixedModel"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/SemiEmpiricalModel">
-                <skos:prefLabel xml:lang="en">Semi-Empirical Model</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Semi-Empirical (Physics-Informed) Model</skos:prefLabel>
                 <dc:date>2023-04-18 15:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">Semi-empirical models are based on previously observed system behavior (empirical) yet data-driven to match current conditions</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Model"/>
+                <skos:definition xml:lang="en">Semi-empirical models apply the data-driven modelling principle within its internal physics-informed (theortical) organization</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MixedModel"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
