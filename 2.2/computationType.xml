@@ -38,6 +38,7 @@
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ActivityIndicator"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SunspotNumber"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/F10.7"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ActiveRegionClassification"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -60,6 +61,17 @@
 			version 2.0 introduced in 2015 and provided by WDC-SILSO, Royal Observatory of Belgium, Brussels.
 		</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SunspotNumber"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/ActiveRegionClassification">
+                <skos:prefLabel xml:lang="en">Solar Active Region Classification</skos:prefLabel>
+                <dc:date>2024-07-18 08:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">
+			McIntosh-Hale classification of the active regions on the Sun.
+                </skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/SolarActivityIndicator"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
