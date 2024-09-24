@@ -28,11 +28,14 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/catalogueCategory/TID">
-                <skos:prefLabel xml:lang="en">Traveling Ionospheric Disturbance</skos:prefLabel>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/catalogueCategory/LSTID">
+                <skos:prefLabel xml:lang="en">Large Scale Traveling Ionospheric Disturbance</skos:prefLabel>
                 <dc:date>2024-09-24 12:32:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">Traveling ionospheric disturbance events of significant wave amplitude</skos:definition>
+                <skos:definition xml:lang="en">
+Traveling ionospheric disturbance events of >600 km scale (LS) and 
+significantly large wave amplitudes
+                </skos:definition>
             </skos:Concept>
         </skos:member>
     </skos:ConceptScheme>
