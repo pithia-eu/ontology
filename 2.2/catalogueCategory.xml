@@ -19,5 +19,21 @@
                 <skos:definition xml:lang="en">Eruptions of volcano</skos:definition>
             </skos:Concept>
         </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/catalogueCategory/SolarEclipse">
+                <skos:prefLabel xml:lang="en">Solar Eclipse</skos:prefLabel>
+                <dc:date>2024-09-24 12:27:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Solar eclipses as observed on the Earth</skos:definition>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/catalogueCategory/TID">
+                <skos:prefLabel xml:lang="en">Traveling Ionospheric Disturbance</skos:prefLabel>
+                <dc:date>2024-09-24 12:32:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Traveling ionospheric disturbance events of significant wave amplitude</skos:definition>
+            </skos:Concept>
+        </skos:member>
     </skos:ConceptScheme>
 </rdf:RDF>
