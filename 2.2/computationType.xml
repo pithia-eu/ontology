@@ -194,6 +194,8 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Hp60_index"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Ap_index"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ap_index"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ap30_index"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ap60_index"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Dst_index"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/DSO_index"/>
             </skos:Concept>
@@ -240,6 +242,24 @@
                 <dc:date>2023-04-13 19:55:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Daily mean of ap sub-auroral geomagnetic activity indicators.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Global"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/ap30_index">
+                <skos:prefLabel xml:lang="en">ap30 Index (Linear representation of Hp30)</skos:prefLabel>
+                <dc:date>2023-05-29 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Linear representation of the quasi-logarithmic Kp30 index.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Global"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/ap60_index">
+                <skos:prefLabel xml:lang="en">ap60 Index (Linear representation of Hp60)</skos:prefLabel>
+                <dc:date>2023-05-29 19:55:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Linear representation of the quasi-logarithmic Kp60 index.</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/GeomagneticActivityIndicator_Global"/>
             </skos:Concept>
         </skos:member>
