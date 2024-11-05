@@ -9,12 +9,12 @@
         <skos:prefLabel xml:lang="en">PITHIA Annotation Type</skos:prefLabel>
         <dc:description>
 This vocabulary describes explanatory/descriptive/classifying information that 
-annotates (highlights) significant data examples from the associated PITHIA resource, 
-most commonly a Data Collection. Unlike PITHIA Data Collection, Annotation supports 
-the temporal/spatial extents, i.e., it has specific time and location attributes. 
-Annotations are compiled in a list (in a tabular form), with each line having a 
-timestamp and then a number of other properties (category classifiers, ratings, 
-free-text comments.) 
+annotates (highlights) significant periods and locations from the associated PITHIA 
+resource, most commonly a Data Collection. Unlike Data Collection, Annotation 
+admits the temporal/spatial extents, i.e., it includes specific time and location 
+attributes. Annotations are compiled in a list (in a tabular form), with each 
+line having a timestamp and then some other properties (category classifiers, 
+ratings, evaluations, free-text comments.) 
         </dc:description>
         <dc:date>2024-11-04 21:03:00.0</dc:date>
         <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -23,10 +23,10 @@ free-text comments.)
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/annotationType/Event">
                 <skos:prefLabel xml:lang="en">Event List</skos:prefLabel>
                 <skos:definition xml:lang="en">
-A list of events: significant occurences of defined category in the physical world,
-such as solar flares, coronal mass ejections, geomagnetic storms, volcanor eruptions,
-etc. The list is commonly managed by the data provider; most importantly, new events
-are appended to the list as they occur.
+A list of events: significant occurrences of defined categories in the physical world,
+such as solar flares, coronal mass ejections, geomagnetic storms, volcano eruptions,
+etc. The data provider manages the list: most importantly, new events are appended 
+to the list as they occur.
                 </skos:definition>
                 <dc:date>2024-11-04 21:22:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -36,8 +36,8 @@ are appended to the list as they occur.
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/annotationType/Anomaly">
                 <skos:prefLabel xml:lang="en">Anomaly List</skos:prefLabel>
                 <skos:definition xml:lang="en">
-A list of times when an instrument operation or a numerical model computation are
-adversly affected, resulting in missing or corrupted measurement/model data.
+A list of times when an instrument operation or a numerical model computation is
+adversely affected, resulting in missing or corrupted measurement/model data.
                 </skos:definition>
                 <dc:date>2024-11-04 21:22:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -47,9 +47,10 @@ adversly affected, resulting in missing or corrupted measurement/model data.
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/annotationType/Feature">
                 <skos:prefLabel xml:lang="en">Feature List</skos:prefLabel>
                 <skos:definition xml:lang="en">
-A list of prominent, persistent, distinctive subsets from the underlying Data 
-Collection that are characterized by specific category of characteristics 
-making the feature stand out from otherwise unremarkable typical behavior.
+A list of prominent, persistent, distinctive data subsets from the underlying 
+Data Collection in a specific category of their characteristics that make each
+feature stand out from otherwise unremarkable typical behavior.
+
                 </skos:definition>
                 <dc:date>2024-11-04 21:22:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
