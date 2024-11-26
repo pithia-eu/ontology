@@ -67,7 +67,7 @@ Access to a data repository holding graphical/imagery data, usually via a landin
                 <dc:date>2024-10-23 10:40:00.0</dc:date>
                 <owlxml:versionInfo>0.2</owlxml:versionInfo>
                 <skos:definition xml:lang="en">
-An download and installation page for a software application that can read (usually over the Internet 
+A download and installation page for a software application that can read (usually over the Internet 
 to an online repository) the data products for interactive visualization and additional processing. 
 The application may also provide means for annotation and derivation of the secondary data products 
 and in some cases allow uploading new products to the online data repository.
@@ -87,25 +87,18 @@ download limits).
             </skos:Concept>
         </skos:member>
         <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/serviceFunction/ApplicationExecution">
-                <skos:prefLabel xml:lang="en">Online service responding to a parametrized data request by executing an application</skos:prefLabel>
-                <dc:date>2024-10-24 14:10:00.0</dc:date>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/serviceFunction/OpenAPI">
+                <skos:prefLabel xml:lang="en">Online service responding to a parametrized data request using OpenAPI standard</skos:prefLabel>
+                <dc:date>2024-11-12 08:10:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">
-An online service operated by the data repository that accepts standard data requests with formally defined 
-parameters and returns requested resource by running an application to generate or retrieve data. 
-Note: this function is sometimes referred to as API, which is a wider concept 
-covering other ways of accessing data resources.
-                </skos:definition>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/serviceFunction/Hybrid">
-                <skos:prefLabel xml:lang="en">Data service with multiple options of access</skos:prefLabel>
-                <dc:date>2024-10-23 10:40:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">
-An online data service that provides multiple "all-in-one" options of accessing data over the same linkage point.
+An online service operated by the data repository that accepts standard OpenAPI data requests 
+with formally defined parameters and returns the requested resource as defined by the 
+interface. Note: this function is sometimes referred to simply as API; however, 
+API is a wider concept covering other, non-standard and standard ways of accessing 
+data resources. Using Swagger UI to build the actual user interface based on the 
+OpenAPI definition is a common solution.
+
                 </skos:definition>
             </skos:Concept>
         </skos:member>
