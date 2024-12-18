@@ -23,15 +23,14 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/instrumentType/ActiveRemoteSensor">
-                <skos:prefLabel xml:lang="en">Active Remote Sensing Instrument</skos:prefLabel>
-                <dc:date>2013-06-21 21:30:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:prefLabel xml:lang="en">Active Remote Sensor</skos:prefLabel>
+                <dc:date>2024-12-17 07:30:00.0</dc:date>
+                <owlxml:versionInfo>0.2</owlxml:versionInfo>
                 <skos:definition xml:lang="en">A remote sensing instrument that emits energy in order to illuminate the feature of interest and then to detect and evaluate the part of radiated energy that was reflected, refracted, attenuated, or scattered by the feature.</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/RemoteSensor"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/Radar"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/Sounder"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiver"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-transmitter"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -103,29 +102,143 @@
             </skos:Concept>
         </skos:member>
         <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS">
+                <skos:prefLabel xml:lang="en">GNSS</skos:prefLabel>
+                <dc:date>2024-12-17 07:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">
+Global satellite navigation system for geopositioning used as active sensor 
+to infer properties of the underlying propagation medium of the GNSS signal.
+                </skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/ActiveRemoteSensor"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiver"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-transmitter"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiver">
                 <skos:prefLabel xml:lang="en">Receiver of GNSS signals</skos:prefLabel>
                 <dc:date>2013-06-21 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">An instrument that infers properties of the propagation medium from analysis of received signals from the GNSS spacecraft.</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/ActiveRemoteSensor"/>
+                <skos:definition xml:lang="en">
+An instrument that infers properties of the propagation medium from analysis of 
+received signals from the GNSS spacecraft.
+                </skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverGroundbased"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverSpaceborne"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverScintillation"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverDualFrequency"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverScintillation"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverOccultation"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverGroundbased">
+                <skos:prefLabel xml:lang="en">Groundbased receiver of GNSS signals</skos:prefLabel>
+                <dc:date>2024-12-17 08:00:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">
+A GNSS receiver built for operations on the ground.
+                </skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiver"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverGroundbased_SingleFrequency"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverGroundbased_DualFrequency"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverGroundbased_MultiFrequency"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverGroundbased_SingleFrequency">
+                <skos:prefLabel xml:lang="en">GNSS Groundbased Single Frequency Receiver</skos:prefLabel>
+                <dc:date>2024-12-17 09:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">A groundbased receiver that records GNSS signals on one frequency.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverGroundbased"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverGroundbased_DualFrequency">
+                <skos:prefLabel xml:lang="en">GNSS Groundbased Dual Frequency Receiver</skos:prefLabel>
+                <dc:date>2024-12-17 09:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">
+A groundbased receiver that determines total electron content (TEC) from 
+the difference of travel times of the dual-frequency GNSS signals.
+                </skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverGroundbased"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverGroundbased_MultiFrequency">
+                <skos:prefLabel xml:lang="en">GNSS Groundbased Multi Frequency Receiver</skos:prefLabel>
+                <dc:date>2024-12-17 09:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">
+A groundbased receiver that determines total electron content (TEC) operating on
+multiple frequencies of the GNSS signal.
+                </skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverGroundbased"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverSpaceborne">
+                <skos:prefLabel xml:lang="en">Spaceborne receiver of GNSS signals</skos:prefLabel>
+                <dc:date>2024-12-17 08:00:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">
+A GNSS receiver built for operations on a satellite.
+                </skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiver"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverSpaceborne_SingleFrequency"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverSpaceborne_DualFrequency"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverSpaceborne_MultiFrequency"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverSpaceborne_SingleFrequency">
+                <skos:prefLabel xml:lang="en">GNSS Spaceborne Single Frequency Receiver</skos:prefLabel>
+                <dc:date>2024-12-17 09:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">A spaceborne receiver that records GNSS signals on one frequency.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverSpaceborne"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverSpaceborne_DualFrequency">
+                <skos:prefLabel xml:lang="en">GNSS Spaceborne Dual Frequency Receiver</skos:prefLabel>
+                <dc:date>2024-12-17 09:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">
+A spaceborne receiver that determines total electron content (TEC) from the difference of 
+travel times of the dual-frequency GNSS signals.
+                </skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverSpaceborne"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverSpaceborne_MultiFrequency">
+                <skos:prefLabel xml:lang="en">GNSS Spaceborne Multi Frequency Receiver</skos:prefLabel>
+                <dc:date>2024-12-17 09:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">
+A spaceborne receiver that determines total electron content (TEC) operating on
+multiple frequencies of the GNSS signal.
+                </skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverSpaceborne"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-transmitter">
-                <skos:prefLabel xml:lang="en">A spaceborne GNSS Transmitter Instrument</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">A spaceborne GNSS Transmitter</skos:prefLabel>
                 <dc:date>2013-06-21 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">A transmitter on GNSS platform with a precise time measurement of pulse tranmission.</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/ActiveRemoteSensor"/>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverDualFrequency">
-                <skos:prefLabel xml:lang="en">GNSS Dual Frequency Receiver</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Deprecate: GNSS DualFrequency Rx</skos:prefLabel>
                 <dc:date>2013-06-21 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">A receiver that determines total electron content (TEC) from the difference of travel times of the dual-frequency GNSS signals.</skos:definition>
@@ -134,7 +247,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverScintillation">
-                <skos:prefLabel xml:lang="en">GNSS Scintillation Receiver</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Deprecate: GNSS Scintillation Receiver</skos:prefLabel>
                 <dc:date>2013-06-21 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">A GNSS receiver that evaluates degree of fluctuation in the signal characteristics.</skos:definition>
@@ -143,7 +256,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverOccultation">
-                <skos:prefLabel xml:lang="en">GNSS Radio Occultation Receiver</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Deprecate: GNSS Radio Occultation Receiver</skos:prefLabel>
                 <dc:date>2013-06-21 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">A GNSS receiver that evaluates amount of signal refraction as it propagates through the medium between the transmitter and receiver.</skos:definition>
