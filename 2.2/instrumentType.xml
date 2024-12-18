@@ -117,7 +117,7 @@ to infer properties of the underlying propagation medium of the GNSS signal.
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiver">
-                <skos:prefLabel xml:lang="en">Receiver of GNSS signals</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">GNSS Receiver</skos:prefLabel>
                 <dc:date>2013-06-21 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">
@@ -127,15 +127,11 @@ received signals from the GNSS spacecraft.
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverGroundbased"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverSpaceborne"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverScintillation"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverDualFrequency"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverScintillation"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverOccultation"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-receiverGroundbased">
-                <skos:prefLabel xml:lang="en">Groundbased receiver of GNSS signals</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Groundbased GNSS receiver</skos:prefLabel>
                 <dc:date>2024-12-17 08:00:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">
@@ -229,7 +225,7 @@ multiple frequencies of the GNSS signal.
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/instrumentType/GNSS-transmitter">
-                <skos:prefLabel xml:lang="en">A spaceborne GNSS Transmitter</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">GNSS Transmitter</skos:prefLabel>
                 <dc:date>2013-06-21 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">A transmitter on GNSS platform with a precise time measurement of pulse tranmission.</skos:definition>
