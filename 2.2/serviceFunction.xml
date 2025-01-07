@@ -14,7 +14,7 @@
 <!-- vvvv Download will be depricated, soon  -->
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/serviceFunction/Download">
-                <skos:prefLabel xml:lang="en">Download</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">DEPRECATE: Download</skos:prefLabel>
                 <dc:date>2013-05-31 15:00:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en"></skos:definition>
@@ -34,7 +34,7 @@ Access to a data repository holding numerical data, usually via a landing webpag
 <!-- vvvv ViewOnly will be depricated, soon  -->
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/serviceFunction/ViewOnly">
-                <skos:prefLabel xml:lang="en">For view only</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">DEPRECATE: For view only</skos:prefLabel>
                 <dc:date>2013-05-31 15:00:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en"></skos:definition>
@@ -54,7 +54,7 @@ Access to a data repository holding graphical/imagery data, usually via a landin
 <!-- deprecated Application, replaced by ApplicationDownload -->
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/serviceFunction/Application">
-                <skos:prefLabel xml:lang="en">Landing page to an application download for data access</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">DEPRECATE: Landing page to an application download for data access</skos:prefLabel>
                 <dc:date>2023-09-13 10:00:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en"></skos:definition>
