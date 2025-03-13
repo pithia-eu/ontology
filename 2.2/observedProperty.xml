@@ -102,24 +102,9 @@
                 <dc:date>2013-06-01 21:30:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Neutral bulk wind velocity,magnitude and direction</skos:definition>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralWindVelocity_Component"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralWindVelocity_Projection"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/NeutralParticle"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/BulkVelocity"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Vector"/>
-            </skos:Concept>
-        </skos:member>
-        <skos:member>
-            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralWindVelocity_Component">
-                <skos:prefLabel xml:lang="en">Neutral Wind Velocity Component</skos:prefLabel>
-                <skos:altLabel xml:lang="en">Vn-i</skos:altLabel>
-                <dc:date>2015-06-10 21:30:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">A component of neutral bulk wind velocity vector</skos:definition>
-                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralWindVelocity"/>
-                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/NeutralParticle"/>
-                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/BulkVelocity"/>
-                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/VectorComponent"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -162,6 +147,7 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralDensity_O">
                 <skos:prefLabel xml:lang="en">Neutral Density of Atomic Oxygen O</skos:prefLabel>
+                <skos:altLabel xml:lang="en">[O]</skos:altLabel>
                 <dc:date>2022-11-30 09:00:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Number density of atomic oxygen</skos:definition>
@@ -173,6 +159,7 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralDensity_O2">
                 <skos:prefLabel xml:lang="en">Neutral Density of Dioxygen O2</skos:prefLabel>
+                <skos:altLabel xml:lang="en">[O2]</skos:altLabel>
                 <dc:date>2022-11-30 09:00:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Neutral density of diatomic oxygen (dioxygen) O2</skos:definition>
@@ -184,6 +171,7 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralDensity_N2">
                 <skos:prefLabel xml:lang="en">Neutral Density of Dinitrogen N2</skos:prefLabel>
+                <skos:altLabel xml:lang="en">[N2]</skos:altLabel>
                 <dc:date>2022-11-30 09:00:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Neutral density of diatomic nitrogen (dinitrogen) N2</skos:definition>
@@ -195,6 +183,7 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralDensity_He">
                 <skos:prefLabel xml:lang="en">Neutral Density of Helium He</skos:prefLabel>
+                <skos:altLabel xml:lang="en">[He]</skos:altLabel>
                 <dc:date>2022-11-30 09:00:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Neutral density of helium He</skos:definition>
@@ -206,7 +195,7 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/NeutralTemperature">
                 <skos:prefLabel xml:lang="en">Neutral Temperature</skos:prefLabel>
-                <skos:altLabel xml:lang="en">Ne</skos:altLabel>
+                <skos:altLabel xml:lang="en">T</skos:altLabel>
                 <skos:definition xml:lang="en">Temperature of neutral particles</skos:definition>
                 <dc:date>2022-11-30 09:00:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -275,7 +264,7 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaBoundaryPosition"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PlasmaLayerType"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/ProfileShapeParameter"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/TotalElectronContent"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/DensityOverVTEC"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/Electron"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/NumberDensity"/>
@@ -508,7 +497,7 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/ProtonDensity">
                 <skos:prefLabel xml:lang="en">Proton Density</skos:prefLabel>
-                <skos:altLabel xml:lang="en">N</skos:altLabel>
+                <skos:altLabel xml:lang="en">N+</skos:altLabel>
                 <skos:definition xml:lang="en">Number density of protons</skos:definition>
                 <dc:date>2013-12-04 16:56:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -520,7 +509,7 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/ProtonDriftVelocity">
                 <skos:prefLabel xml:lang="en">Proton Drift Velocity</skos:prefLabel>
-                <skos:altLabel xml:lang="en">V</skos:altLabel>
+                <skos:altLabel xml:lang="en">V+</skos:altLabel>
                 <skos:definition xml:lang="en">The proton drift velocity vector</skos:definition>
                 <dc:date>2013-12-04 16:56:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -533,7 +522,7 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/ProtonTemperature">
                 <skos:prefLabel xml:lang="en">Proton Temperature</skos:prefLabel>
-                <skos:altLabel xml:lang="en">T</skos:altLabel>
+                <skos:altLabel xml:lang="en">T+</skos:altLabel>
                 <skos:definition xml:lang="en">Proton temperature</skos:definition>
                 <dc:date>2013-12-04 16:57:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -545,7 +534,7 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/ProtonFlux">
                 <skos:prefLabel xml:lang="en">Proton Flux</skos:prefLabel>
-                <skos:altLabel xml:lang="en">F</skos:altLabel>
+                <skos:altLabel xml:lang="en">F+</skos:altLabel>
                 <skos:definition xml:lang="en">Flux of energetic protons</skos:definition>
                 <dc:date>2013-12-04 16:57:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -570,8 +559,8 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/IonComposition_AtomicOxygen-Ne">
-                <skos:prefLabel xml:lang="en">O /Ne Composition</skos:prefLabel>
-                <skos:altLabel xml:lang="en">[O ]/[e-]</skos:altLabel>
+                <skos:prefLabel xml:lang="en">O/Ne Composition</skos:prefLabel>
+                <skos:altLabel xml:lang="en">[O]/[e-]</skos:altLabel>
                 <skos:definition xml:lang="en">Proportions of particle densities in a composite gas</skos:definition>
                 <dc:date>2013-12-04 17:04:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
@@ -663,6 +652,23 @@
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PhotonFlux"/>
                 <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectroMagneticWave"/>
                 <pithia:photonType rdf:resource="https://metadata.pithia.eu/ontology/2.2/photonType/Optical"/>
+                <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/CountRate"/>
+                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Differential_Time"/>
+                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Integral_EnergyPassband"/>
+                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Integral_Area"/>
+                <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Integral_SolidAngleAcceptance"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/PhotonFlux_UV">
+                <skos:prefLabel xml:lang="en">UV Photon Flux</skos:prefLabel>
+                <skos:altLabel xml:lang="en">qp</skos:altLabel>
+                <dc:date>2025-03-13 21:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Photon flux in the ultraviolet spectrum.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/observedProperty/PhotonFlux"/>
+                <pithia:phenomenon rdf:resource="https://metadata.pithia.eu/ontology/2.2/phenomenon/ElectromagneticWave"/>
+                <pithia:photonType rdf:resource="https://metadata.pithia.eu/ontology/2.2/photonType/UV"/>
                 <pithia:measurand rdf:resource="https://metadata.pithia.eu/ontology/2.2/measurand/CountRate"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Differential_Time"/>
                 <pithia:qualifier rdf:resource="https://metadata.pithia.eu/ontology/2.2/qualifier/Integral_EnergyPassband"/>
@@ -1285,7 +1291,7 @@
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/observedProperty/DensityOverVTEC">
                 <skos:prefLabel xml:lang="en">Ratio of Electron Density over Vertical TEC</skos:prefLabel>
-                <skos:altLabel xml:lang="en">TEC</skos:altLabel>
+                <skos:altLabel xml:lang="en">Ne/TEC</skos:altLabel>
                 <skos:definition xml:lang="en">Ratio of Electron Density over Vertical TEC</skos:definition>
                 <dc:date>2023-12-07 09:04:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
