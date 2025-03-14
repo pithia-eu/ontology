@@ -98,7 +98,6 @@ interface. Note: this function is sometimes referred to simply as API; however,
 API is a wider concept covering other, non-standard and standard ways of accessing 
 data resources. Using Swagger UI to build the actual user interface based on the 
 OpenAPI definition is a common solution.
-
                 </skos:definition>
             </skos:Concept>
         </skos:member>
