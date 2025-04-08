@@ -8,7 +8,7 @@
     <skos:ConceptScheme rdf:about="https://metadata.pithia.eu/ontology/2.2/staticDatasetCategory">
         <skos:prefLabel xml:lang="en">PITHIA Static Dataset Category</skos:prefLabel>
         <dc:description>Standard definitions of the Static Dataset's Categories</dc:description>
-        <dc:date>2023-09-11 21:37:00.0</dc:date>
+        <dc:date>2025-04-08 07:37:00.0</dc:date>
         <owlxml:versionInfo>0.1</owlxml:versionInfo>
         <dc:publisher>PITHIA</dc:publisher>
         <skos:member>
@@ -48,12 +48,11 @@ to a registered event in the Event Catalogue
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/staticDatasetCategory/Feature">
-                <skos:prefLabel xml:lang="en">Feature</skos:prefLabel>
-                <dc:date>2024-10-16 12:32:00.0</dc:date>
+                <skos:prefLabel xml:lang="en">Experiment Campaign</skos:prefLabel>
+                <dc:date>2025-04-08 07:32:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">
-Subset of unpublished data (graphical, numerical) with distinct start and stop times that correspond 
-to a registered event in the Feature Catalogue
+Data collection during planned experiments and observation campaigns such as the World Day.
                 </skos:definition>
             </skos:Concept>
         </skos:member>
