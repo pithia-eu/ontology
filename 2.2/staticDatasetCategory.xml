@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
     xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -13,18 +14,18 @@
         <dc:publisher>PITHIA</dc:publisher>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/staticDatasetCategory/AcademicPublication">
-                <skos:prefLabel xml:lang="en">Academic Publication</skos:prefLabel>
-                <dc:date>2024-10-16 12:32:00.0</dc:date>
-                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:prefLabel xml:lang="en">Datasets Used in an Academic Publication</skos:prefLabel>
+                <dc:date>2025-06-19 09:32:00.0</dc:date>
+                <owlxml:versionInfo>0.2</owlxml:versionInfo>
                 <skos:definition xml:lang="en">
-Publication in an academic journal that requires persistent access to the source
-data used in the published research
+Datasets placed in a static storage for a publication in an academic journal that 
+required persistent access to the source data
                 </skos:definition>
             </skos:Concept>
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/staticDatasetCategory/TrainingDataset">
-                <skos:prefLabel xml:lang="en">Training Dataset for a Machine Learning Model</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Training Datasets for a Machine Learning Model</skos:prefLabel>
                 <dc:date>2024-11-05 08:35:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">
@@ -37,7 +38,7 @@ results in registration of another Data Subset document for the same Catalog Ent
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/staticDatasetCategory/Event">
-                <skos:prefLabel xml:lang="en">Event</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Data Pertaining to an Event</skos:prefLabel>
                 <dc:date>2024-10-16 12:32:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">
@@ -48,7 +49,7 @@ to a registered event in the Event Catalogue
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/staticDatasetCategory/Feature">
-                <skos:prefLabel xml:lang="en">Experiment Campaign</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Data from an Experiment Campaign</skos:prefLabel>
                 <dc:date>2025-04-08 07:32:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">
