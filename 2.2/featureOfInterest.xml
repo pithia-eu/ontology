@@ -485,7 +485,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Heliosphere_Remote-1AU">
-                <skos:prefLabel xml:lang="en">Remote 1AU Heliosphere</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Remote 1AU</skos:prefLabel>
                 <dc:date>2022-06-29 14:14:00.0</dc:date>
                 <owlxml:versionInfo>0.2</owlxml:versionInfo>
                 <skos:definition xml:lang="en"></skos:definition>
@@ -494,7 +494,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Heliosphere_Beyond-1AU">
-                <skos:prefLabel xml:lang="en">Beyond 1AU Heliosphere</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Beyond 1AU</skos:prefLabel>
                 <dc:date>2025-05-20 01:04:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en"></skos:definition>
