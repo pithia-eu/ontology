@@ -732,7 +732,7 @@
                 <dc:date>2025-08-05 09:40:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">An extrasolar planet outside the Solar System.</skos:definition>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/InterstellarSpace"/>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/InterstellarSpace"/>
             </skos:Concept>
         </skos:member>
     </skos:ConceptScheme>
