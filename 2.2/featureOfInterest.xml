@@ -20,7 +20,6 @@
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Sun"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Heliosphere"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/CelestialBody"/>
-                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/InterstellarSpace"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -153,7 +152,7 @@
         </skos:member>
         <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/CelestialBody">
-                <skos:prefLabel xml:lang="en">Solar System Celestial Body</skos:prefLabel>
+                <skos:prefLabel xml:lang="en">Celestial Body</skos:prefLabel>
                 <dc:date>2025-07-17 09:00:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">The celestial body of the Solar System</skos:definition>
