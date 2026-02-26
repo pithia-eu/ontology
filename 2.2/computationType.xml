@@ -602,6 +602,15 @@ as the DSO index.
             </skos:Concept>
         </skos:member>
         <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/NowcastModel">
+                <skos:prefLabel xml:lang="en">Nowcast Model</skos:prefLabel>
+                <dc:date>2026-02-25 22:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Model that describes current state of a system.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Model"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
             <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/PredictionModel">
                 <skos:prefLabel xml:lang="en">Prediction Model</skos:prefLabel>
                 <dc:date>2026-02-25 22:30:00.0</dc:date>
