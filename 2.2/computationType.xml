@@ -371,6 +371,8 @@ as the DSO index.
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/NumericalModel"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/DataDrivenModel"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MixedModel"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ForecastModel"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/PredictionModel"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
@@ -588,6 +590,24 @@ as the DSO index.
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
                 <skos:definition xml:lang="en">Semi-empirical models apply the data-driven modelling principle within its internal physics-informed (theortical) organization</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MixedModel"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/ForecastModel">
+                <skos:prefLabel xml:lang="en">Forecast Model</skos:prefLabel>
+                <dc:date>2026-02-25 22:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Model that makes prediction of future state of a system based on past data and current system state.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Model"/>
+            </skos:Concept>
+        </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/computationType/PredictionModel">
+                <skos:prefLabel xml:lang="en">Prediction Model</skos:prefLabel>
+                <dc:date>2026-02-25 22:30:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+                <skos:definition xml:lang="en">Model that makes prediction of future state of a system without knowing its current state.</skos:definition>
+                <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/Model"/>
             </skos:Concept>
         </skos:member>
         <skos:member>
