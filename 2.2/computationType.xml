@@ -372,6 +372,7 @@ as the DSO index.
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/DataDrivenModel"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/MixedModel"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/ForecastModel"/>
+                <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/NowcastModel"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/computationType/PredictionModel"/>
             </skos:Concept>
         </skos:member>
