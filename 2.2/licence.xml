@@ -216,5 +216,37 @@ and Space Science Proceedings, H. Laakso et al. (eds.), Springer, 2010
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
             </skos:Concept>
         </skos:member>
+        <skos:member>
+            <skos:Concept rdf:about="https://metadata.pithia.eu/ontology/2.2/licence/CBK_PAN">
+                <skos:prefLabel xml:lang="en">CBK PAN Data Use and Attribution</skos:prefLabel>
+                <skos:definition xml:lang="en">
+These data are owned and maintained by the Centrum Badan Kosmicznych
+Polskiej Akademii Nauk (Space Research Centre of the Polish Academy of
+Sciences, CBK PAN).
+The data are made freely available for educational purposes and
+non-commercial scientific research. Users planning substantial use of the
+data are encouraged to contact CBK PAN at an early stage to discuss data
+usage, calibration, technical characteristics, and any potential
+scientific collaboration or co-authorship where appropriate.
+Any redistribution of these data, including incorporation into databases,
+repositories, or other data services, must be accompanied by this
+statement and remain subject to the same conditions of use.
+Commercial use of the data requires prior written agreement with CBK PAN.
+Any publication, presentation, report, derived product, or other publicly
+disseminated work making use of these data must include appropriate
+acknowledgement of CBK PAN as the data provider. A suggested
+acknowledgement is:
+"Centrum Badan Kosmicznych Polskiej Akademii Nauk (CBK PAN) is
+acknowledged for providing the data used in this work."
+Where appropriate, users should also cite the relevant dataset, data
+product, and associated documentation.
+For questions regarding data access, usage conditions, technical
+characteristics, or collaboration opportunities, please contact CBK PAN at
+pozoga(at)cbk.waw.pl."
+                </skos:definition>
+                <dc:date>2016-01-22 10:13:00.0</dc:date>
+                <owlxml:versionInfo>0.1</owlxml:versionInfo>
+            </skos:Concept>
+        </skos:member>
     </skos:ConceptScheme>
 </rdf:RDF>
