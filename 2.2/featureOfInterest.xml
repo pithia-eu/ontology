@@ -361,7 +361,7 @@
                 <skos:prefLabel xml:lang="en">Central Sheet</skos:prefLabel>
                 <dc:date>2025-07-03 14:14:00.0</dc:date>
                 <owlxml:versionInfo>0.1</owlxml:versionInfo>
-                <skos:definition xml:lang="en">Hot (~1–10 keV), tenuous plasma in the central tail</skos:definition>
+                <skos:definition xml:lang="en">Hot (~110 keV), tenuous plasma in the central tail</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Outer"/>
             </skos:Concept>
         </skos:member>
@@ -379,7 +379,7 @@
                 <skos:prefLabel xml:lang="en">Inner</skos:prefLabel>
                 <dc:date>2022-06-29 14:14:00.0</dc:date>
                 <owlxml:versionInfo>0.2</owlxml:versionInfo>
-                <skos:definition xml:lang="en">The central region of the magnetosphere dominated by Earth’s magnetic field, bounded by the magnetopause.</skos:definition>
+                <skos:definition xml:lang="en">The central region of the magnetosphere dominated by Earthï¿½s magnetic field, bounded by the magnetopause.</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Main"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Radiation-Belts"/>
                 <skos:narrower rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Ring-Current"/>
@@ -400,7 +400,7 @@
                 <skos:prefLabel xml:lang="en">Radiation Belts</skos:prefLabel>
                 <dc:date>2022-06-29 14:14:00.0</dc:date>
                 <owlxml:versionInfo>0.2</owlxml:versionInfo>
-                <skos:definition xml:lang="en">Two doughnut-shaped zones of trapped energetic charged particles (mostly electrons and protons) held in place by Earth’s magnetic field.</skos:definition>
+                <skos:definition xml:lang="en">Two doughnut-shaped zones of trapped energetic charged particles (mostly electrons and protons) held in place by Earthï¿½s magnetic field.</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Inner"/>
             </skos:Concept>
         </skos:member>
@@ -409,7 +409,7 @@
                 <skos:prefLabel xml:lang="en">Ring Current</skos:prefLabel>
                 <dc:date>2023-02-01 14:14:00.0</dc:date>
                 <owlxml:versionInfo>0.2</owlxml:versionInfo>
-                <skos:definition xml:lang="en">Energetic ions (~10–200 keV) drifting westward, producing geomagnetic storms</skos:definition>
+                <skos:definition xml:lang="en">Energetic ions (~10ï¿½200 keV) drifting westward, producing geomagnetic storms</skos:definition>
                 <skos:broader rdf:resource="https://metadata.pithia.eu/ontology/2.2/featureOfInterest/Earth_Magnetosphere_Inner"/>
             </skos:Concept>
         </skos:member>
